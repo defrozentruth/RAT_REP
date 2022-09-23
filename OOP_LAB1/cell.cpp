@@ -9,18 +9,6 @@
             this->playerOn = playerOn;
         }
 
-        // Cell::Cell(Cell& obj):x(obj.x), y(obj.y), access(obj.access), event(obj.event){
-        // }
-        Cell& Cell::operator =(Cell& obj){
-            if (this != &obj){
-                this->x = obj.x;
-                this->y = obj.y;
-                this->access = obj.access;
-                this->event = obj.event;
-            }
-            return *this;
-        }
-
         void Cell::accessChanger(bool access){
             this->access = access;
         }

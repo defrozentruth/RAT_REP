@@ -62,4 +62,28 @@
         int Field::getPlayerY(){
             return player_y;
         }
-        
+ 
+void Field::swap(Field &fieldObj){
+    std::swap(size_y, fieldObj.size_y);
+    std::swap(size_x, fieldObj.size_x);
+    std::swap(map, fieldObj.map);
+    std::swap(player_x, fieldObj.player_x);
+    std::swap(player_y, fieldObj.player_y);
+}
+ 
+Field& Field::operator=(const Field& fieldObj){
+    if(this != &fieldObj){
+        Field(fieldObj).swap(*this);
+    }
+    return *this;
+}
+ 
+Field::Field(Field&& fieldObj){
+    this->swap(fieldObj);
+};
+ 
+Field& Field::operator=(Field&& filedObj) {
+    if (this != &filedObj)
+        this->swap(filedObj);
+    return *this;
+}

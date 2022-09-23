@@ -1,6 +1,7 @@
 #include <iostream>
 #include "cell.hpp"
 #include "event.hpp"
+#include <utility>
 
 #pragma once
 
@@ -20,5 +21,9 @@ class Field{
         int getWidth();
         int getPlayerX();
         int getPlayerY();
-        
+        Field::Field(const Field& fieldObj):size_y(fieldObj.size_y), size_x(fieldObj.size_x), player_x(fieldObj.player_x), player_y(fieldObj.player_y), map(fieldObj.map){};
+        void swap(Field &fieldObj);
+        Field& operator=(const Field& fieldObj);
+        Field(Field&& fieldObj);
+        Field& operator=(Field&& filedObj);
 };
