@@ -7,7 +7,7 @@
 class Mediator{
 
 public:
-    Mediator(CommandReader& cr, Controller& control):cr(cr), control(control){}
+    Mediator(){}
     void notifyCommandReader();
 
     void notifyController();

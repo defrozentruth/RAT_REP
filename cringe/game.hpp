@@ -13,15 +13,10 @@
 class Game{
 
 public:
-    Game();  
-    ~Game();
-
     void run();
 private:
-    FieldView* fw;
-    CommandReader* cr;
-    Controller* control;
-    Mediator* mediator;
+    FieldView fw;
+    Mediator mediator;
     Field* field;
 };
 
