@@ -11,7 +11,7 @@
                 this->map[i] = new Cell[size_x];
             }
             map[player_y][player_y].playerVisit();
-            map[size_y/2][size_x/2].accessChanger(false);
+            map[size_y/2][size_x/2].changeAccess(false);
         }
         void Field::movePlayer(int x, int y){ 
             map[player_y][player_x].playerVisit(); 
@@ -70,6 +70,20 @@ void Field::swap(Field &fieldObj){
     std::swap(player_x, fieldObj.player_x);
     std::swap(player_y, fieldObj.player_y);
 }
+
+Field::Field(const Field& fieldObj){
+    if(this != &fieldObj){
+        this->size_x = fieldObj.size_x;
+        this->size_y = fieldObj.size_y;
+        this->player_x = fieldObj.player_x;
+        this->player_y = fieldObj.player_y;
+        for (int i = 0; i < size_y; i++){
+            for (int j = 0; j < size_x; j++){
+                this->map[i][j] = fieldObj.map[i][j];
+            }
+        }
+    }
+}
  
 Field& Field::operator=(const Field& fieldObj){
     if(this != &fieldObj){
@@ -86,4 +100,4 @@ Field& Field::operator=(Field&& filedObj) {
     if (this != &filedObj)
         this->swap(filedObj);
     return *this;
-}
+};

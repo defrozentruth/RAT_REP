@@ -21,9 +21,10 @@ class Field{
         int getWidth();
         int getPlayerX();
         int getPlayerY();
-        Field::Field(const Field& fieldObj):size_y(fieldObj.size_y), size_x(fieldObj.size_x), player_x(fieldObj.player_x), player_y(fieldObj.player_y), map(fieldObj.map){};
+        Field(const Field& fieldObj);
         void swap(Field &fieldObj);
         Field& operator=(const Field& fieldObj);
         Field(Field&& fieldObj);
         Field& operator=(Field&& filedObj);
+        
 };
