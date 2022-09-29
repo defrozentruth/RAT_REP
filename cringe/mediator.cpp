@@ -1,11 +1,11 @@
 #include "mediator.hpp"
 
 void Mediator::notifyCommandReader(){
-        cr.setCommand();
+        cr.readCommand();
     }
 void Mediator::notifyController(){
     control.getCommand(cr.getCommand());
 }
-direction Mediator::getControllerCommand(){
+Player::direction Mediator::getControllerCommand(){
     return control.command;
 }

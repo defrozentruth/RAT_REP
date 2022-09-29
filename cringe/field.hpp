@@ -4,7 +4,6 @@
 #include <iostream>
 #include "cell.hpp"
 #include "player.hpp"
-#include "direction.hpp"
 
 class Field{
 
@@ -29,16 +28,16 @@ public:
 
     int player_y() const;
 
-    void move(direction dir);
+    void move(Player::direction dir);
 
-
+Player player;
 private:
     int _height;
     int _width;
     int x_pos;
     int y_pos;
     Cell** _game_field;
-    Player player;
+    
 };
 
 #endif

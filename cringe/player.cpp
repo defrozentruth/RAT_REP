@@ -8,3 +8,11 @@ Player& Player::operator=(const Player& obj){
         }
         return *this;
     }
+
+int Player::getPower() const{
+        return _power;
+    }
+
+void Player::setPower(int power){
+    _power = power;
+}

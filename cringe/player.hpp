@@ -9,10 +9,23 @@ public:
     Player(const Player& obj):_hitPoints(obj._hitPoints), _mana(obj._mana), _power(obj._power){}
     Player& operator=(const Player& obj);
 
+    enum direction{
+        UP = 0,
+        DOWN = 1,
+        LEFT = 2,
+        RIGHT = 3, 
+        QUIT = 4
+    };
+
+    int getPower() const;
+
+    void setPower(int power);
+int _power;
 private:
     int _hitPoints;
     int _mana;
-    int _power;
+    
+    
 };
 
 #endif

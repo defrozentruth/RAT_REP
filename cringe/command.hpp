@@ -7,7 +7,7 @@ class CommandReader{
 private:
     char command;
 public:
-    void setCommand();
+    void readCommand();
 
     char getCommand() const;
 };

@@ -6,7 +6,8 @@
 #include "command.hpp"
 #include "controller.hpp"
 #include "mediator.hpp"
-#include "direction.hpp"
+#include "player.hpp"
+#include "power_buff_event.hpp"
 #include <iostream>
 
 

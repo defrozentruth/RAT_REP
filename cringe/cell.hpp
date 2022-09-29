@@ -2,28 +2,36 @@
 #define CELL_HPP
 
 #include "event.hpp"
+#include "player.hpp"
 
 class Cell{
 
 public:
-    //возможность добавить состояний
-    Cell(bool isPassable = true, bool isPushed = false):_is_passable(isPassable),_is_pushed(isPushed){}
-    explicit Cell(bool isPassable):_is_passable(isPassable),_is_pushed(false){}
+    
+    enum cell_type{
+        IMPASSABLE,
+        PUSHED,
+        DEFAULT,
+        EVENT
+    };
+
+    Cell(cell_type type = DEFAULT):event(nullptr), type(type){}
     Cell& operator=(const Cell& cell);
 
-    bool getIsPushed() const;
-
-    bool getIsPassable() const;
-
-    void react();
+    void react(Player& player);
 
     void setDefault();
 
     void setImpassable();
 
+    void setEvent(Event* event);
+
+    ~Cell();
+
+    cell_type getType();
+
 private:
-    bool _is_passable;
-    bool _is_pushed;
+    cell_type type;
     Event* event;
 };
 

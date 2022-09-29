@@ -1,6 +1,6 @@
 #include "command.hpp"
 
-void CommandReader::setCommand(){
+void CommandReader::readCommand(){
         std::cin >> this->command;
     }
 

@@ -4,19 +4,19 @@ void Controller::getCommand(char command){
     switch (command)
     {
     case 'w':
-        this->command = UP; 
+        this->command = Player::UP; 
         break;
     case 'a':
-        this->command = LEFT;
+        this->command = Player::LEFT;
         break;
     case 's':
-        this->command = DOWN;
+        this->command = Player::DOWN;
         break;
     case 'd':
-        this->command = RIGHT;
+        this->command = Player::RIGHT;
         break;
     case 'q':
-        this->command = QUIT;
+        this->command = Player::QUIT;
         break;
     default:
         break;

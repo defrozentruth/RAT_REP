@@ -12,7 +12,9 @@ Field::Field(int height, int width, int x_pos, int y_pos):_height(height),_width
 Field::Field(const Field& obj):_height(obj._height), _width(obj._width), player(obj.player), x_pos(obj.x_pos), y_pos(obj.y_pos){
     _game_field = new Cell*[_height];
         for(int i = 0; i < _height; i++){
-            _game_field[i] = obj._game_field[i];
+            for(int j = 0; j < _width; j++){
+                _game_field[i][j] = obj._game_field[i][j];
+            }  
         }
 }
 
@@ -31,7 +33,9 @@ Field& Field::operator=(const Field& obj){
         player = obj.player;
         _game_field = new Cell*[_height];
         for(int i = 0; i < _height; i++){
-            _game_field[i] = obj._game_field[i];
+            for(int j = 0; j < _width; j++){
+                _game_field[i][j] = obj._game_field[i][j];
+            }  
         }
     }
     return *this;
@@ -90,29 +94,29 @@ void Field::setPlayerPosition(int x, int y){
         return y_pos;
     }
 
-    void Field::move(direction dir){
+    void Field::move(Player::direction dir){
         int x = x_pos;
         int y = y_pos;
         switch(dir){
-            case UP:
+            case Player::UP:
                 x - 1 >= 0 ? x-- : x = _width - 1;
                 break;
-            case DOWN:
+            case Player::DOWN:
                 x = (x + 1) % _width;
                 break;
-            case LEFT:
+            case Player::LEFT:
                 y - 1 >= 0 ? y-- : y = _height - 1;
                 break;
-            case RIGHT:
+            case Player::RIGHT:
                 y = (y + 1) % _height;
                 break;
             default:
                 break;
         }
-        if(_game_field[x][y].getIsPassable()){
+        if(_game_field[x][y].getType() != Cell::IMPASSABLE){
             _game_field[x_pos][y_pos].setDefault();
             setPlayerPosition(x,y);
-            _game_field[x_pos][y_pos].react();
+            _game_field[x_pos][y_pos].react(player);
         }else{
             return;
         }
