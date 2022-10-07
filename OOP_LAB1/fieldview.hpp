@@ -1,8 +1,9 @@
+#pragma once
 #include <iostream>
 #include "cell.hpp"
 #include "field.hpp"
+#include "event.hpp"
 
-#pragma once
 
 class FieldView{
 public:

@@ -1,7 +1,7 @@
 all: main
 
 main: *.o
-		g++ main.o execute.o controller.o fieldview.o player.o cell.o field.o -o main
+		g++ *.o -o main
 
 *.o:
 		g++ -c *.cpp -Imodules

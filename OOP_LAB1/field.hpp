@@ -1,9 +1,13 @@
+#pragma once
 #include <iostream>
 #include "cell.hpp"
 #include "event.hpp"
 #include <utility>
+#include "trap.hpp"
+#include "win.hpp"
+#include "enemy.hpp"
+#include "earthquake.hpp"
 
-#pragma once
 
 #define BASE_VALUE 20
 
@@ -15,7 +19,7 @@ class Field{
     int player_y;
     public:
         Field(int x = BASE_VALUE, int y = BASE_VALUE, int player_x = 0, int player_y = 0);
-        void movePlayer(int x, int y);
+        void movePlayer(int x, int y, Player& player);
         Cell** getField();
         int getHeight();
         int getWidth();

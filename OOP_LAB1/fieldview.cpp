@@ -9,9 +9,19 @@
                 if(temp[i][j].isPassable()){
                     if(i == field.getPlayerY() && j == field.getPlayerX()){
                         std::cout << "[@]";
-                    }
-                    else{
-                        std::cout << "[ ]";
+                    }else{
+                        if(temp[i][j].haveEvent() == true){
+                            if(temp[i][j].eventAccess()->retName() == 'E' || temp[i][j].eventAccess()->retName() == 'W')
+                                {if(temp[i][j].eventAccess()->retName() == 'E')
+                                    std::cout << "[T]";
+                                if(temp[i][j].eventAccess()->retName() == 'W')
+                                    std::cout << "[%]";}
+                            else{
+                                std::cout << "[?]";
+                            }
+                        }else{
+                            std::cout << "[ ]";
+                        }
                     }
                 }
                 else{
