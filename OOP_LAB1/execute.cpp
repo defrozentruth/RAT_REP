@@ -40,15 +40,29 @@
         }
         Controller contr;
         FieldView fview;
+        //Player_Event eventContoller(player, field);
         system("clear");
         fview.printField(field);
+        std::cout << "Movement is set to WASD" << '\n';
+        std::cout << "HP: " << player.retHP() << " Agility: " << player.retAgility() << " Attack: " << player.retAttack() << '\n';
         std::cin >> cmd;
-        while(cmd != 'X'){
-            contr.mover(cmd, field);
-            std::cout << '\n';
+        while(cmd != 'X' && player.retWinState() != WIN && player.retWinState() !=LOSE){
             system("clear");
+            contr.mover(cmd, field, player);
+            std::cout << '\n';
+            
             fview.printField(field);
+            //eventContoller.procEvent();
+            std::cout << "Movement is set to WASD" << '\n';
+            std::cout << "HP: " << player.retHP() << " Agility: " << player.retAgility() << " Attack: " << player.retAttack() << '\n';
+            if(player.retWinState() == WIN || player.retWinState() ==LOSE)
+                break;
             std::cin >> cmd;
+        }
+        if(player.retWinState()){
+            std::cout << "You won!\n";
+        }else{
+            std::cout << "You lost!\n";
         }
     }
 

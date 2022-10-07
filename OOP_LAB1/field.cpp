@@ -11,37 +11,75 @@
                 this->map[i] = new Cell[size_x];
             }
             map[player_y][player_y].playerVisit();
-            map[size_y/2][size_x/2].changeAccess(false);
+            map[0][1].changeAccess(false);
+
+            Trap testTrap = Trap();
+            //std::cout << &testTrap << "\n";
+            //std::cout << &map[1][1] << '\n';
+            map[1][1].changeEvent(&testTrap);
+            map[1][1].changeEventPresence(true);
+
+            Enemy testEnemy = Enemy();
+            map[1][2].changeEvent(&testEnemy);
+            map[1][2].changeEventPresence(true);
+
+            Earthquake testEQ = Earthquake();
+            map[1][3].changeEvent(&testEQ);
+            map[1][3].changeEventPresence(true);
+
+            Win testWin = Win(0);
+            map[1][4].changeEvent(&testWin);
+            map[1][4].changeEventPresence(true);
+
         }
-        void Field::movePlayer(int x, int y){ 
+        void Field::movePlayer(int x, int y, Player& player){ 
             map[player_y][player_x].playerVisit(); 
             if(player_x == 0 && x == -1){
-                if(map[player_y][size_x-1].isPassable())
+                if(map[player_y][size_x-1].isPassable()){
                     player_x = size_x - 1;
+                    if (map[player_y][player_x].haveEvent() == true)
+                        map[player_y][player_x].eventAccess()->changePlayer(player);
+                }
                 else
                     std::cout << "Cell isn't passable" << '\n';
             }else
             if(player_y == 0 && y == -1){
                 if(map[size_y-1][player_x].isPassable())
-                    player_y = size_y - 1;
+                    {player_y = size_y - 1;
+                    if (map[player_y][player_x].haveEvent() == true)
+                    map[player_y][player_x].eventAccess()->changePlayer(player);
+                    map[player_y][player_x].changeEvent(nullptr);
+                    map[player_y][player_x].changeEventPresence(false);}
                 else
                     std::cout << "Cell isn't passable" << '\n';
             }else
             if(player_x == size_x-1 && x == 1){
                 if(map[player_y][0].isPassable())
-                    player_x = 0;
+                    {player_x = 0;
+                    if (map[player_y][player_x].haveEvent() == true)
+                    map[player_y][player_x].eventAccess()->changePlayer(player);
+                    map[player_y][player_x].changeEvent(nullptr);
+                    map[player_y][player_x].changeEventPresence(false);}
                 else
                     std::cout << "Cell isn't passable" << '\n';
             }else
             if(player_y == size_y-1 && y == 1){
                 if(map[0][player_x].isPassable())
-                    player_y = 0;
+                {    player_y = 0;
+                if (map[player_y][player_x].haveEvent() == true)
+                    map[player_y][player_x].eventAccess()->changePlayer(player);
+                    map[player_y][player_x].changeEvent(nullptr);
+                    map[player_y][player_x].changeEventPresence(false);}
                 else
                     std::cout << "Cell isn't passable" << '\n';
             }else{
                 if(map[player_y+y][player_x+x].isPassable()){
                     player_x += x;
-                    player_y += y; 
+                    player_y += y;
+                    if (map[player_y][player_x].haveEvent() == true)
+                    {map[player_y][player_x].eventAccess()->changePlayer(player);
+                    map[player_y][player_x].changeEvent(nullptr); 
+                    map[player_y][player_x].changeEventPresence(false);}
                 }else
                     std::cout << "Cell isn't passable" << '\n';
             }
