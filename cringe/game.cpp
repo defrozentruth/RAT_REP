@@ -20,7 +20,7 @@ void Game::run(){
     }
     do{
         system("clear");
-        std::cout<<field->player.getPower()<<std::endl;
+        std::cout<<'|'<< "power=" << field->player.getPower()<< '|' << std::endl;
         fw.printField(*field);
         mediator.notifyCommandReader();
         mediator.notifyController();

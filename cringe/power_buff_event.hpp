@@ -11,7 +11,7 @@ public:
     ~PowerBuff();
     PowerBuff(int mult = 10000):mult(mult){};
     void change_state(Player& player);
-    Event* clone();
+    PowerBuff* clone() override;
 };
 
 #endif
