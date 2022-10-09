@@ -29,7 +29,7 @@ void Cell::setImpassable(){
 }
 
 void Cell::setEvent(Event* event){
-    event = event->clone();
+    this->event = event->clone();
     type = EVENT;
 }
 
