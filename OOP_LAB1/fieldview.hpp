@@ -1,11 +1,15 @@
-#pragma once
+#ifndef FIELDVIEW_HPP
+#define FIELDVIEW_HPP
+
 #include <iostream>
-#include "cell.hpp"
 #include "field.hpp"
-#include "event.hpp"
+#include "player.hpp"
+#include <typeinfo>
 
 
 class FieldView{
 public:
-    void printField(Field& field);
+    void printField(Field& field, Player& player);
 };
+
+#endif

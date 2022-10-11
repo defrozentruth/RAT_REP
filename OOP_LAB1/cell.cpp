@@ -30,7 +30,6 @@
 
         void Cell::playerVisit(){
             if(playerOn){
-                //this->eventAccess()->changePlayer();
                 playerOn = false;
             }
             else
@@ -44,7 +43,6 @@
         }
         Cell& Cell::operator=(Cell& obj){
             if(this != &obj){
-                //Cell(obj).swap(*this);
                 this->access = obj.access;
                 this->playerOn = obj.playerOn;
                 this->eventPresence = obj.eventPresence;

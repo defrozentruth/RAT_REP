@@ -1,15 +1,10 @@
 #include "win.hpp"
 
-    void Win::changePlayer(Player& player/*, Field& field*/){
-        player.changeWinState(WIN);
-    }
 
-    void Win::testEx(){
-        std::cout << "trap exists\n";
-    }
-
-    char Win::retName(){
-        return 'W';
+    void Win::eventProc(Player& player){
+        player.addScore(this->score);
+        if (player.retScore() >= 100)
+            player.changeWinState(WIN);
     }
 
     Win* Win::clone(){

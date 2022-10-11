@@ -5,9 +5,15 @@
             this->agility = agility;
             this->attack = attack;
             this->winState = 0;
+            this->score = 0;
+            this->overseer = false;
         }
         void Player::decHP(int hp){
             this->hp = this->hp - hp;
+        }
+
+        void Player::setHP(int hp){
+            this->hp = hp;
         }
 
         int Player::retHP(){
@@ -40,4 +46,20 @@
 
         int Player::retWinState(){
             return this->winState;
+        }
+
+        void Player::changeOverseer(bool state){
+            this->overseer = state;
+        }
+
+        bool Player::retOverseer(){
+            return this->overseer;
+        }
+
+        int Player::retScore(){
+            return this->score;
+        }
+
+        void Player::addScore(int score){
+            this->score += score;
         }

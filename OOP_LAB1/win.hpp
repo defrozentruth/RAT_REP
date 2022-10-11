@@ -1,17 +1,14 @@
-#pragma once
+#ifndef WIN_HPP
+#define WIN_HPP
 
+#include "map_events.hpp"
 
-#include "event.hpp"
-#include "player.hpp"
-//#include "field.hpp"
-#include <iostream>
-
-class Win: public Event{
-    int a;
+class Win: public Map_Events{
+    int score;
 public:
-    Win(int a):a(a){};
-    void changePlayer(Player& player/*, Field& field*/);
+    Win(int score = 100):score(score){};
+    void eventProc(Player& player);
     Win* clone() override;
-    void testEx();
-    char retName();
 };
+
+#endif
