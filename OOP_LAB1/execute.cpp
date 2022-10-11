@@ -40,26 +40,27 @@
         }
         Controller contr;
         FieldView fview;
-        //Player_Event eventContoller(player, field);
         system("clear");
-        fview.printField(field);
+        fview.printField(field, player);
         std::cout << "Movement is set to WASD" << '\n';
-        std::cout << "HP: " << player.retHP() << " Agility: " << player.retAgility() << " Attack: " << player.retAttack() << '\n';
+        std::cout << "HP: " << player.retHP() << " Agility: " << player.retAgility() << " Attack: " << player.retAttack() << " Score: "<< player.retScore() <<'\n';
         std::cin >> cmd;
-        while(cmd != 'X' && player.retWinState() != WIN && player.retWinState() !=LOSE){
+        while(cmd != 'X' && player.retWinState() != WIN && player.retWinState() != LOSE){
             system("clear");
             contr.mover(cmd, field, player);
             std::cout << '\n';
             
-            fview.printField(field);
-            //eventContoller.procEvent();
+            fview.printField(field, player);
             std::cout << "Movement is set to WASD" << '\n';
-            std::cout << "HP: " << player.retHP() << " Agility: " << player.retAgility() << " Attack: " << player.retAttack() << '\n';
-            if(player.retWinState() == WIN || player.retWinState() ==LOSE)
+            std::cout << "HP: " << player.retHP() << " Agility: " << player.retAgility() << " Attack: " << player.retAttack() << " Score: "<< player.retScore()<< '\n';
+            if (player.retOverseer()){
+                std::cout << "You have Overseer. Traps marked X, enemies marked T, treasures marked %, Overseer marked O\n";
+            }
+            if(player.retWinState() == WIN || player.retWinState() == LOSE)
                 break;
             std::cin >> cmd;
         }
-        if(player.retWinState()){
+        if(player.retWinState() == WIN){
             std::cout << "You won!\n";
         }else{
             std::cout << "You lost!\n";

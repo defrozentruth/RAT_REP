@@ -1,15 +1,15 @@
-#pragma once
+#ifndef FIELD_HPP
+#define FIELD_HPP
+
 #include <iostream>
-#include "cell.hpp"
-#include "event.hpp"
 #include <utility>
-#include "trap.hpp"
+#include "cell.hpp"
 #include "win.hpp"
+#include "overseer.hpp"
 #include "enemy.hpp"
-#include "earthquake.hpp"
+#include "trap.hpp"
 
-
-#define BASE_VALUE 20
+#define BASE_VALUE 10
 
 class Field{
     Cell** map;
@@ -32,3 +32,5 @@ class Field{
         Field& operator=(Field&& filedObj);
         
 };
+
+#endif

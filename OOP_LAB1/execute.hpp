@@ -1,14 +1,16 @@
-#pragma once
+#ifndef EXECUTE_HPP
+#define EXECUTE_HPP
+
 #include <iostream>
 #include "player.hpp"
-#include "cell.hpp"
 #include "field.hpp"
-#include "fieldview.hpp"
 #include "controller.hpp"
-//#include "player_event.hpp"
+#include "fieldview.hpp"
 
 
 class Execute{
 public:
     void run();
 };
+
+#endif

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CELL_HPP
+#define CELLL_HPP
 #include "event.hpp"
 #include <utility>
 
@@ -21,3 +22,5 @@ class Cell{
         bool haveEvent();
         void changeEventPresence(bool state);
 };
+
+#endif
