@@ -10,7 +10,7 @@ public:
     Mediator(){}
     void notifyCommandReader();
 
-    void notifyController();
+    // void notifyController();
 
     Player::direction getControllerCommand();
 

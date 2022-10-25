@@ -18,7 +18,7 @@ public:
     Cell(cell_type type = DEFAULT):event(nullptr), type(type){}
     Cell& operator=(const Cell& cell);
 
-    void react(Player& player);
+    void react();
 
     void setDefault();
 
