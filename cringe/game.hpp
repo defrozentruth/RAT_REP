@@ -8,6 +8,9 @@
 #include "mediator.hpp"
 #include "player.hpp"
 #include "power_buff_event.hpp"
+#include "enemy.hpp"
+#include "win.hpp"
+#include "open_exit.hpp"
 #include <iostream>
 
 

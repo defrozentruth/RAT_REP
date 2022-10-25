@@ -3,12 +3,11 @@
 
 #include "player.hpp"
 
-class Event{
+class Event{//сделать на смартуказателях
 
 public:
-    virtual void change_state(Player& player) = 0;
+    virtual void change_state() = 0;
     virtual Event* clone() = 0;
-    // virtual ~Event() = 0;
 };
 
 #endif

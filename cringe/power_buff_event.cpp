@@ -1,8 +1,7 @@
 #include "power_buff_event.hpp"
 
-
-void PowerBuff::change_state(Player& player){
-    player.setPower(player.getPower()*mult);
+void PowerBuff::change_state(){
+    player->setPower(player->getPower()+mult);
 }
 
 PowerBuff* PowerBuff::clone(){
@@ -10,5 +9,5 @@ PowerBuff* PowerBuff::clone(){
 }
 
 PowerBuff::~PowerBuff(){
-    mult = 1;
+    mult = 0;
 }
