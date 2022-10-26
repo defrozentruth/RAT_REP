@@ -1,4 +1,4 @@
-# RAT_REP
+# КАТАСТРОФИЧЕСКИЙ ПИЗДЕЦ
 ![image](https://user-images.githubusercontent.com/90772773/198142854-2346559d-53e7-47fb-8a24-b890142bf59b.png)
 ![image](https://user-images.githubusercontent.com/90772773/198142871-00027fb8-7703-4121-bea4-17ad9833d84e.png)
 ![image](https://user-images.githubusercontent.com/90772773/198142901-4f6938da-c985-4360-b88a-8f9d5a2fcb3a.png)
