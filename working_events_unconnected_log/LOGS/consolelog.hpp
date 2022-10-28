@@ -5,9 +5,9 @@
 class ConsoleLogger: public Logger{
     LogPool pool;
     LogType type;
-    LogGenerator gen;
+    LogGenerator* gen;
 public:
-    ConsoleLogger(LogType type): type(type){};
+    ConsoleLogger(LogType type);
     ~ConsoleLogger();
     void printLog();
     LogType retType();
