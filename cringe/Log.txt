@@ -1,0 +1,5 @@
+[GAME]	07/11/2022 13:12:31	Player win!
+[INFO]	08/11/2022 00:37:04	Game started
+[INFO]	08/11/2022 00:37:06	Built default field
+[GAME]	08/11/2022 00:37:10	Player win!
+[INFO]	08/11/2022 00:37:10	Game finished

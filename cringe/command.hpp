@@ -8,7 +8,6 @@ private:
     char command;
 public:
     void readCommand();
-
     char getCommand() const;
 };
 

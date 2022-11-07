@@ -3,6 +3,7 @@
 
 void Enemy::change_state(){
     attack();
+    //this->notify();
 }
 
 void Enemy::attack(){

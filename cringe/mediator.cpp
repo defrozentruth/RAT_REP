@@ -7,6 +7,6 @@ void Mediator::notifyCommandReader(){
 // void Mediator::notifyController(){
     
 // }
-Player::direction Mediator::getControllerCommand(){
+Player::command Mediator::getControllerCommand(){
     return control.command;
 }

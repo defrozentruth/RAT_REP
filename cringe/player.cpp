@@ -15,6 +15,7 @@ int Player::getPower() const{
 
 void Player::setPower(int power){
     _power = power;
+    //this->notify();
 }
 
 int Player::getHP() const{
@@ -23,10 +24,12 @@ int Player::getHP() const{
 
 void Player::setHP(int hp){
     _hitPoints = hp;
+    //this->notify();
 }
 
 void Player::addPoints(int points){
     _points += points;
+    //this->notify();
 }
 
 int Player::getPoints() const{

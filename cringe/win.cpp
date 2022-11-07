@@ -2,7 +2,7 @@
 
 void Win::change_state(){
     field->changeState(Field::WIN);
-    // std::cout << "you win!!!\n";
+    //this->notify();
 }
 
 Win* Win::clone(){

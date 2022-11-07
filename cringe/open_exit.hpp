@@ -4,7 +4,7 @@
 #include "Ifield_event.hpp"
 #include "win.hpp"
 
-class Exit: public Ifield_event{
+class Exit: public Ifield_event, public Observable{
     void goToEmptyCell(int old_x, int old_y);
 public:    
     Exit(Field* field): field(field){};
