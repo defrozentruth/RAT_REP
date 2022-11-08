@@ -2,6 +2,7 @@
 #include "field.hpp"
 
         Field::Field(bool def, int x, int y, int player_x, int player_y){
+            LogPool* logger = LogPool::getInstance();
             this->size_x = x;
             this->size_y = y;
             this->player_x = player_x;
@@ -16,125 +17,90 @@
             while(inp != 'y' && inp != 'n'){
                 std::cin >> inp;
             }
-            if(inp == 'y')
-                this->player = Player();
+            if(inp == 'y'){
+                this->player = new Player();
+                if(logger->logging(Info) == true)
+                    logger->printLog(Info, "Player created\n");
+            }
             else{
                 std::cout << "Enter hp, agility, attack\n";
                 int hp, ag, atk;
                 std::cin >> hp >> ag >> atk;
-                this->player = Player(hp, ag, atk);
+                this->player = new Player(hp, ag, atk);
+                if(logger->logging(Info) == true)
+                    logger->printLog(Info, "Player created\n");
             }}
             else
-                this->player = Player();
+                this->player = new Player();
+                if(logger->logging(Info) == true)
+                    logger->printLog(Info, "Player created\n");
             map[player_y][player_y].playerVisit();
-            map[0][1].changeAccess(false);
-            map[1][7].changeAccess(false);
-            map[2][1].changeAccess(false);
-            map[2][2].changeAccess(false);
-            map[2][3].changeAccess(false);
-            map[4][5].changeAccess(false);
-            map[6][7].changeAccess(false);
-            map[8][9].changeAccess(false);
-            map[9][8].changeAccess(false);
-
-            Trap testTrap = Trap();
-            map[1][1].changeEvent(&testTrap);
-            map[1][1].changeEventPresence(true);
-
-            Enemy testEnemy = Enemy();
-            map[1][2].changeEvent(&testEnemy);
-            map[1][2].changeEventPresence(true);
-
-            Overseer testOV = Overseer();
-            map[1][3].changeEvent(&testOV);
-            map[1][3].changeEventPresence(true);
-
-            Win testWin = Win();
-            map[1][4].changeEvent(&testWin);
-            map[1][4].changeEventPresence(true);
-
-            testEnemy = Enemy(10, 10, 10);
-            map[1][5].changeEvent(&testEnemy);
-            map[1][5].changeEventPresence(true);
-
-            testEnemy = Enemy(5, 7, 6);
-            map[2][4].changeEvent(&testEnemy);
-            map[2][4].changeEventPresence(true);
-
-            testEnemy = Enemy(4, 3, 3);
-            map[2][5].changeEvent(&testEnemy);
-            map[2][5].changeEventPresence(true);
-
-            testEnemy = Enemy(1, 15, 7);
-            map[2][6].changeEvent(&testEnemy);
-            map[2][6].changeEventPresence(true);
-
-            testOV = Overseer(1);
-            map[2][7].changeEvent(&testOV);
-            map[2][7].changeEventPresence(true);
-
-            Earthquake testEQ = Earthquake();
-            map[7][2].changeEvent(&testEQ);
-            map[7][2].changeEventPresence(true);
+            
         }
         void Field::movePlayer(int x, int y){ 
+            LogPool* logger = LogPool::getInstance();
             map[player_y][player_x].playerVisit(); 
             if(player_x == 0 && x == -1){
                 if(map[player_y][size_x-1].isPassable()){
                     player_x = size_x - 1;
                     if (map[player_y][player_x].haveEvent() == true){
-                        map[player_y][player_x].eventAccess()->eventProc(*this);
+                        map[player_y][player_x].eventAccess()->eventProc();
                         map[player_y][player_x].changeEvent(nullptr);
                         map[player_y][player_x].changeEventPresence(false);
                     }
                 }
                 else
-                    std::cout << "Cell isn't passable" << '\n';
+                    if(logger->logging(Error) == true)
+                    logger->printLog(Error, "Cell isn't passable\n");
             }else
             if(player_y == 0 && y == -1){
                 if(map[size_y-1][player_x].isPassable())
                     {player_y = size_y - 1;
                     if (map[player_y][player_x].haveEvent() == true){
-                        map[player_y][player_x].eventAccess()->eventProc(*this);
+                        map[player_y][player_x].eventAccess()->eventProc();
                         map[player_y][player_x].changeEvent(nullptr);
                         map[player_y][player_x].changeEventPresence(false);
                     }
                     }
                 else
-                    std::cout << "Cell isn't passable" << '\n';
+                    if(logger->logging(Error) == true)
+                    logger->printLog(Error, "Cell isn't passable\n");
             }else
             if(player_x == size_x-1 && x == 1){
                 if(map[player_y][0].isPassable())
                     {player_x = 0;
                     if (map[player_y][player_x].haveEvent() == true){
-                        map[player_y][player_x].eventAccess()->eventProc(*this);
+                        map[player_y][player_x].eventAccess()->eventProc();
                         map[player_y][player_x].changeEvent(nullptr);
                         map[player_y][player_x].changeEventPresence(false);
                     }}
                 else
-                    std::cout << "Cell isn't passable" << '\n';
+                    if(logger->logging(Error) == true)
+                    logger->printLog(Error, "Cell isn't passable\n");
             }else
             if(player_y == size_y-1 && y == 1){
                 if(map[0][player_x].isPassable())
                 {    player_y = 0;
                if (map[player_y][player_x].haveEvent() == true){
-                        map[player_y][player_x].eventAccess()->eventProc(*this);
+                        map[player_y][player_x].eventAccess()->eventProc();
                         map[player_y][player_x].changeEvent(nullptr);
                         map[player_y][player_x].changeEventPresence(false);
                     }}
                 else
-                    std::cout << "Cell isn't passable" << '\n';
+                    if(logger->logging(Error) == true)
+                    logger->printLog(Error, "Cell isn't passable\n");
             }else{
                 if(map[player_y+y][player_x+x].isPassable()){
                     player_x += x;
                     player_y += y;
                     if (map[player_y][player_x].haveEvent() == true){
-                        map[player_y][player_x].eventAccess()->eventProc(*this);
+                        map[player_y][player_x].eventAccess()->eventProc();
                         map[player_y][player_x].changeEvent(nullptr);
                         map[player_y][player_x].changeEventPresence(false);
                     }
                 }else
-                    std::cout << "Cell isn't passable" << '\n';
+                    if(logger->logging(Error) == true)
+                    logger->printLog(Error, "Cell isn't passable\n");
             }
             map[player_y][player_x].playerVisit();
         };
@@ -154,7 +120,7 @@
             return player_y;
         }
         Player* Field::getPlayer(){
-            return &player;
+            return player;
         }
  
 void Field::swap(Field &fieldObj){

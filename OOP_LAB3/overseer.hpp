@@ -1,13 +1,16 @@
 #ifndef OVERSEER_HPP
 #define OVERSEER_HPP
 
-#include "map_events.hpp"
+#include "player_events.hpp"
+#include "LogPool.hpp"
 
-class Overseer: public Map_Events{
+class Overseer: public Player_Events{
     int overseerLVL;
+protected:
+    Player* player;
 public:
-    Overseer(int overseerLVL = 5):overseerLVL(overseerLVL){};
-    void eventProc(Field& field);
+    Overseer(Player* player, int overseerLVL = 5): player(player), overseerLVL(overseerLVL){};
+    void eventProc();
     Overseer* clone() override;
 };
 

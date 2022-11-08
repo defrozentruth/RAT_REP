@@ -4,6 +4,9 @@
 #include "event.hpp"
 
 class Player_Events:public Event{
-    virtual void eventProc(Field& field) = 0;
+public:
+    virtual void eventProc() = 0;
+protected:
+    Player* player;
 };
 #endif

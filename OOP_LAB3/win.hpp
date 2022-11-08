@@ -1,13 +1,16 @@
 #ifndef WIN_HPP
 #define WIN_HPP
 
-#include "map_events.hpp"
+#include "player_events.hpp"
+#include "LogPool.hpp"
 
-class Win: public Map_Events{
+class Win: public Player_Events{
     int score;
+protected:
+    Player* player;
 public:
-    Win(int score = 100):score(score){};
-    void eventProc(Field& field);
+    Win(Player* player, int score = 100):player(player), score(score){};
+    void eventProc();
     Win* clone() override;
 };
 
