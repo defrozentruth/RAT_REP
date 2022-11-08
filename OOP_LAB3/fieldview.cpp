@@ -27,6 +27,9 @@
                                         if(dynamic_cast<Earthquake*>(temp[i][j].eventAccess()) != nullptr){
                                             std::cout << "[^]";
                                         }
+                                        if(dynamic_cast<Sledge*>(temp[i][j].eventAccess()) != nullptr){
+                                            std::cout << "[P]";
+                                        }
                                     }else
                                         std::cout << "[?]";
                         }

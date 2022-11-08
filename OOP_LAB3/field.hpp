@@ -9,7 +9,9 @@
 #include "enemy.hpp"
 #include "trap.hpp"
 #include "earthquake.hpp"
+#include "sledge.hpp"
 #include "player.hpp"
+#include "LogPool.hpp"
 
 #define BASE_VALUE 10
 
@@ -20,7 +22,7 @@ class Field{
     int size_y;
     int player_x;
     int player_y;
-    Player player;
+    Player* player;
     public:
         Field(bool def, int x = BASE_VALUE, int y = BASE_VALUE, int player_x = 0, int player_y = 0);
         void movePlayer(int x, int y);

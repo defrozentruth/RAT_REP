@@ -2,11 +2,16 @@
 #define EARTHQUAKE_HPP
 
 #include "map_events.hpp"
+#include "LogPool.hpp"
 
 class Earthquake: public Map_Events{
+    Field* field;
+    void checkLeft(int x, int y);
+    void checkRight(int x, int y);
+    void checkDown(int x, int y);
     public:
-        Earthquake() = default;
-        void eventProc(Field& field);
+        Earthquake(Field* field):field(field){};
+        void eventProc();
         Earthquake* clone() override;
 };
 

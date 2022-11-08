@@ -5,5 +5,5 @@
 
 class LogGenerator{
 public:
-    virtual Message* generateMessage(std::string inpLog);
+    virtual Message* generateMessage(std::string inpLog) = 0;
 };

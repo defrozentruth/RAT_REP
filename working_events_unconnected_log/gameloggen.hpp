@@ -3,7 +3,8 @@
 #include "loggen.hpp"
 
 class GameLogGenerator: public LogGenerator{
-    GameLogGenerator();
-    ~GameLogGenerator();
+public:
+    GameLogGenerator() = default;
+    //~GameLogGenerator();
     Message* generateMessage(std::string inpLog);
 };

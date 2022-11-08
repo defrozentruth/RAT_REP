@@ -7,11 +7,6 @@
 #include "string"
 #include "iostream"
 
-class LogPool;
-class GameLogGenerator;
-class InfoLogGenerator;
-class ErrorLogGenerator;
-
 enum LogType{
     Game,
     Info,
@@ -19,12 +14,12 @@ enum LogType{
 };
 
 class Logger{
-    //LogPool pool;
-    //LogGenerator gen;
+    LogPool pool;
+    LogGenerator gen;
     LogType type;
 public:
-    virtual void printLog() = 0;
-    virtual LogType retType() = 0;
-    virtual void newLog(std::string inpLog) = 0;
+    virtual void printLog();
+    virtual LogType retType();
+    virtual void newLog(std::string inpLog);
 };
 

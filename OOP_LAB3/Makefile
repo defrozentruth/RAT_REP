@@ -7,7 +7,7 @@ main: *.o
 		g++ -c *.cpp -Imodules
 
 clean: 
-		rm -f *.o
+		rm -f *.o 
 
 cleanAll: clean
 	rm -f main

@@ -3,7 +3,8 @@
 #include "loggen.hpp"
 
 class ErrorLogGenerator: public LogGenerator{
-    ErrorLogGenerator();
-    ~ErrorLogGenerator();
+public:
+    ErrorLogGenerator() = default;
+    //~ErrorLogGenerator();
     Message* generateMessage(std::string inpLog);
 };

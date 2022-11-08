@@ -1,10 +1,13 @@
 #include "win.hpp"
 #include "field.hpp"
 
-    void Win::eventProc(Field& field){
-        field.getPlayer()->addScore(this->score);
-        if (field.getPlayer()->retScore() >= 100)
-            field.getPlayer()->changeWinState(WIN);
+    void Win::eventProc(){
+        LogPool* logger = LogPool::getInstance();
+        if(logger->logging(Game) == true)
+            logger->printLog(Game, "You've found the treasures!\n");
+        player->addScore(this->score);
+        if (this->player->retScore() >= 100)
+            this->player->changeWinState(WIN);
     }
 
     Win* Win::clone(){

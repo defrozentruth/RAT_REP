@@ -3,7 +3,8 @@
 #include "loggen.hpp"
 
 class InfoLogGenerator: public LogGenerator{
-    InfoLogGenerator();
-    ~InfoLogGenerator();
+public:
+    InfoLogGenerator() = default;
+    //~InfoLogGenerator();
     Message* generateMessage(std::string inpLog);
 };
