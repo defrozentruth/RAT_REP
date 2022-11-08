@@ -1,7 +1,9 @@
 #ifndef PLAYER_HPP
 #define PLAYER_HPP
 
-class Player{
+#include "observable.hpp"
+
+class Player:public Observable{
 
 public:
 
@@ -9,12 +11,13 @@ public:
     Player(const Player& obj):_hitPoints(obj._hitPoints), _points(obj._points), _power(obj._power){}
     Player& operator=(const Player& obj);
 
-    enum direction{
+    enum command{
         UP = 0,
         DOWN = 1,
         LEFT = 2,
         RIGHT = 3, 
-        QUIT = 4
+        QUIT = 4,
+        LOGGER = 5
     };
 
     int getPower() const;

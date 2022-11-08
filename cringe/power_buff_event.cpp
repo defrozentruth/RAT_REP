@@ -1,6 +1,7 @@
 #include "power_buff_event.hpp"
 
 void PowerBuff::change_state(){
+    //this->notify();
     player->setPower(player->getPower()+mult);
 }
 

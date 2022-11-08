@@ -105,7 +105,7 @@ void Field::react(){
     this->_game_field[x_pos][y_pos].react();
 }
 
-void Field::move(Player::direction dir){
+void Field::move(Player::command dir){
     int x = x_pos;
     int y = y_pos;
     switch(dir){
@@ -128,6 +128,7 @@ void Field::move(Player::direction dir){
         _game_field[x_pos][y_pos].setDefault();
         setPlayerPosition(x,y);
         this->react();
+        //this->notify();
     }else{
         return;
     }
@@ -135,6 +136,7 @@ void Field::move(Player::direction dir){
 
 void Field::changeState(game_state state){
     this->state = state;
+    //this->notify();
 }
 
 Field::game_state Field::getState() const{

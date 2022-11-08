@@ -12,7 +12,7 @@ public:
 
     // void notifyController();
 
-    Player::direction getControllerCommand();
+    Player::command getControllerCommand();
 
 private:
     CommandReader cr;

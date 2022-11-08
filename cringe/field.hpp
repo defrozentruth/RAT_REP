@@ -4,9 +4,10 @@
 #include <iostream>
 #include "cell.hpp"
 #include "player.hpp"
+#include "observable.hpp"
 
 
-class Field{
+class Field: public Observable{
 
 public:
 
@@ -35,7 +36,7 @@ public:
 
     int player_y() const;
 
-    void move(Player::direction dir);
+    void move(Player::command dir);
 
     Player* getPlayer();
 

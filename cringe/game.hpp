@@ -11,10 +11,12 @@
 #include "enemy.hpp"
 #include "win.hpp"
 #include "open_exit.hpp"
+#include "observable.hpp"
+#include "concrete_factory.hpp"
 #include <iostream>
 
 
-class Game{
+class Game: public Observable{
 
 public:
     void run();

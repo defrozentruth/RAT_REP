@@ -2,6 +2,7 @@
 #define EVENT_HPP
 
 #include "player.hpp"
+#include "observable.hpp"
 
 class Event{//сделать на смартуказателях
 

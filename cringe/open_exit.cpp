@@ -3,7 +3,7 @@
 void Exit::change_state(){
     if(field->getPlayer()->getPoints() > 20){
         field->getField()[field->height()-1][field->width()-1].setEvent(new Win(field));
-        // std::cout<<"Exit is open\n";
+        //this->notify();
     }else{
         int old_x = field->player_x();
         int old_y = field->player_y();
@@ -12,6 +12,7 @@ void Exit::change_state(){
         goToEmptyCell(old_x, old_y);
         
         field->getField()[old_y][old_x].setEvent(exit);
+        //this->notify();
     }
 }
 
