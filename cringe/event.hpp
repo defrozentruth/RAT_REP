@@ -11,4 +11,5 @@ public:
     virtual Event* clone() = 0;
 };
 
+
 #endif
