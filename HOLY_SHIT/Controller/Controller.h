@@ -1,6 +1,6 @@
 #include "../Field/Field.h"
-#include "../GameLog/GameLog.h"
-#include "../ErrorLog/ErrorLog.h"
+#include "../LogType/GameLog.h"
+#include "../LogType/ErrorLog.h"
 #pragma once
 
 class Controller{

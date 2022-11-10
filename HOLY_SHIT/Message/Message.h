@@ -1,12 +1,11 @@
 #pragma once
 
-enum Level{
-    Game,
-    Info,
-    Error
-};
-
 class Message{
 public:
+    enum Level{
+        Game,
+        Info,
+        Error
+    };
     virtual Level get_level() = 0;
 };

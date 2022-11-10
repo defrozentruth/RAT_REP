@@ -1,14 +1,14 @@
 #include <iostream>
 #include "../Field/Field.h"
 #include "../Controller/Controller.h"
-#include "../FieldView/FieldView.h"
+#include "../Field/FieldView.h"
 #include "Runner.h"
-#include "../FieldMaker/FieldMaker.h"
-#include "../GameLog/GameLog.h"
-#include "../InfoLog/InfoLog.h"
-#include "../ErrorLog/ErrorLog.h"
-#include "../LoggerPool/LoggerPool.h"
-#include "../LoggerCreator/LoggerCreator.h"
+#include "../Field/FieldMaker.h"
+#include "../LogType/GameLog.h"
+#include "../LogType/InfoLog.h"
+#include "../LogType/ErrorLog.h"
+#include "../Logger/LoggerPool.h"
+#include "../Logger/LoggerCreator.h"
 #include <stdlib.h>
 #include <windows.h>
 
