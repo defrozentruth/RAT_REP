@@ -2,9 +2,11 @@
 #define ENEMY_HPP
 
 #include "Iplayer_event.hpp"
+#include "message.hpp"
 #include "field.hpp"
+#include <string>
 
-class Enemy: public Iplayer_event, public Observable{
+class Enemy: public Iplayer_event{
 
 public:    
     Enemy(Player* player, Field* field, int power = 30, int hp = 70):player(player),field(field), _power(power), _hp(hp){};
@@ -18,14 +20,10 @@ private:
 
     const int points_for_kill = 25;
 
-    void attack();
-    void defence();
-    void goToEmptyCell(int old_x, int old_y);
-
 protected:
     Player* player;
     Field* field;
-};
 
+};
 
 #endif

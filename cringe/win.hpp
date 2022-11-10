@@ -3,7 +3,7 @@
 
 #include "Ifield_event.hpp"
 
-class Win:public Ifield_event, public Observable{
+class Win:public Ifield_event{
     
 public:
     Win(Field* field): field(field){};
