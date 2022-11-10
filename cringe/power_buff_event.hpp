@@ -3,7 +3,7 @@
 
 #include "Iplayer_event.hpp"
 
-class PowerBuff:public Iplayer_event, public Observable{
+class PowerBuff:public Iplayer_event{
     int mult;
 public:
     ~PowerBuff();

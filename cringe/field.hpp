@@ -4,8 +4,8 @@
 #include <iostream>
 #include "cell.hpp"
 #include "player.hpp"
+#include "EventLog.hpp"
 #include "observable.hpp"
-
 
 class Field: public Observable{
 
@@ -44,14 +44,19 @@ public:
 
     game_state getState() const;
 
+    void setEventLog(EventLog*);
+
     void react();
 
+    Cell** _game_field;
+    EventLog* e_log;
 private:
+
     int _height;
     int _width;
     int x_pos;
     int y_pos;
-    Cell** _game_field;
+    
     Player player;
     game_state state;
 

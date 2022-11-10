@@ -9,7 +9,12 @@
 
 class LoggerPool{
 public:    
-    LoggerPool() = default;
+
+    void operator=(const LoggerPool&) = delete;
+    LoggerPool(LoggerPool& other) = delete;
+
+    static LoggerPool *getInstance();
+
     void addLog(Message* msg);
     void addLogger(Logger* logger);
     void deleteLoggers();
@@ -24,6 +29,9 @@ private:
         {LogType::ERROR, false}, 
         {LogType::INFO, false}
     };
+protected:
+    LoggerPool() = default;
+    static LoggerPool* pool;
 };
 
 #endif

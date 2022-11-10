@@ -1,4 +1,5 @@
 #include "field.hpp"
+#include "stdlib.h"
 
 Field::Field(int height, int width, int x_pos, int y_pos):_height(height),_width(width),x_pos(x_pos),y_pos(y_pos), state(Field::DEFAULt){
     Cell** column = new Cell*[this->_height];
@@ -7,9 +8,10 @@ Field::Field(int height, int width, int x_pos, int y_pos):_height(height),_width
         }
         this->_game_field = column;
         this->player = Player();
+        this->e_log = nullptr;
 }
 
-Field::Field(const Field& obj):_height(obj._height), _width(obj._width), player(obj.player), x_pos(obj.x_pos), y_pos(obj.y_pos), state(obj.state){
+Field::Field(const Field& obj):_height(obj._height), _width(obj._width), player(obj.player), x_pos(obj.x_pos), y_pos(obj.y_pos), state(obj.state), e_log(obj.e_log){
     _game_field = new Cell*[_height];
         for(int i = 0; i < _height; i++){
             for(int j = 0; j < _width; j++){
@@ -32,6 +34,7 @@ Field& Field::operator=(const Field& obj){
         y_pos = obj.y_pos;
         player = obj.player;
         state = obj.state;
+        e_log = obj.e_log;
         _game_field = new Cell*[_height];
         for(int i = 0; i < _height; i++){
             for(int j = 0; j < _width; j++){
@@ -50,6 +53,7 @@ Field::Field(Field&& obj){
     std::swap(y_pos, obj.y_pos);
     std::swap(player, obj.player);
     std::swap(state, obj.state);
+    std::swap(e_log, obj.e_log);
 }
 
 Field& Field::operator=(Field&& obj){
@@ -61,6 +65,7 @@ Field& Field::operator=(Field&& obj){
         std::swap(y_pos, obj.y_pos);
         std::swap(player, obj.player);
         std::swap(state, obj.state);
+        std::swap(e_log, obj.e_log);
     }
     return *this;
 }
@@ -70,6 +75,7 @@ Field::~Field(){
         delete []_game_field[i];
     }
     delete []_game_field;
+    delete e_log;
 }
 
 int Field::height() const{
@@ -128,8 +134,9 @@ void Field::move(Player::command dir){
         _game_field[x_pos][y_pos].setDefault();
         setPlayerPosition(x,y);
         this->react();
-        //this->notify();
+        this->notify(LogType::INFO, ("New player position: (" + std::to_string(x) + "," + std::to_string(y) + ")"));
     }else{
+        this->notify(LogType::ERROR, "Try go to impassable cell");
         return;
     }
 }
@@ -141,4 +148,8 @@ void Field::changeState(game_state state){
 
 Field::game_state Field::getState() const{
     return state;
+}
+
+void Field::setEventLog(EventLog* e_log){
+    this->e_log = e_log;
 }

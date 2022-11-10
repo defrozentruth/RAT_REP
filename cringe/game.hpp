@@ -12,6 +12,7 @@
 #include "win.hpp"
 #include "open_exit.hpp"
 #include "observable.hpp"
+#include "FieldLog.hpp"
 #include "concrete_factory.hpp"
 #include <iostream>
 

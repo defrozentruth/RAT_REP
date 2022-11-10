@@ -2,6 +2,9 @@
 #include <stdlib.h>
 
 void Game::run(){
+
+    LoggerPool* pool = LoggerPool::getInstance();
+    
     this->notify(LogType::INFO, "Game started");
     int n, m;
     char common_field;
@@ -24,27 +27,34 @@ void Game::run(){
             field = new Field(10,10);
             this->notify(LogType::ERROR, "Incorrect size. Build default size (10x10)");
         }
-        
+        FieldLog(field, pool);
         field->react();
         
     
     }else{
         field = new Field();
+        FieldLog(field, pool);
+        EventLog* e_log = new EventLog(pool);
+        field->setEventLog(e_log);
         
         EventAbstractFactory* factory = new EnemyFactory(field->getPlayer(), field);
         Event* enemy = factory->createEvent();
+        field->e_log->subscribe(enemy);
         
         factory = new ExitFactory(field);
         Event* e_exit = factory->createEvent();
+        field->e_log->subscribe(e_exit);
 
         factory = new PowerBuffFactory(field->getPlayer());
         Event* pb = factory->createEvent();
+        field->e_log->subscribe(pb);
 
         field->getField()[2][2].setImpassable();
         field->getField()[1][0].setImpassable();
-        field->getField()[1][1].setEvent(e_exit);
+        field->getField()[1][1].setEvent(enemy);
         field->getField()[1][2].setEvent(pb);
-        field->getField()[1][3].setEvent(enemy);
+        field->getField()[1][3].setEvent(e_exit);
+
         field->react();
         this->notify(LogType::INFO, "Built default field");
     }

@@ -40,3 +40,13 @@ void LoggerPool::setLogTypes(std::vector<LogType> types){
         logTypes.at(elem) = true;
     }
 }
+
+
+LoggerPool* LoggerPool::pool = nullptr;
+
+LoggerPool *LoggerPool::getInstance(){
+    if(!pool){
+        pool = new LoggerPool();
+    }
+    return pool;
+}

@@ -1,11 +1,10 @@
-#ifndef EVENT_HPP
-#define EVENT_HPP
+#ifndef EVENT_INTERFACE_HPP
+#define EVENT_INTERFACE_HPP
 
-#include "player.hpp"
 #include "observable.hpp"
+#include "player.hpp"
 
-class Event{//сделать на смартуказателях
-
+class Event: public Observable{
 public:
     virtual void change_state() = 0;
     virtual Event* clone() = 0;
