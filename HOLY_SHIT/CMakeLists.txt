@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.21)
+project(untitled)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(untitled main.cpp Event/Event.h Player/Player.cpp Player/Player.h Cell/Cell.cpp Cell/Cell.h Cell/CellView.cpp Cell/CellView.h Field/Field.cpp Field/Field.h Field/FieldView.cpp Field/FieldView.h Controller/Controller.cpp Controller/Controller.h Runner/Runner.cpp Runner/Runner.h Field/FieldMaker.cpp Field/FieldMaker.h Event/PlayerEvent/PlayerEvent.h Event/PlayerEvent/Heal.cpp Event/PlayerEvent/Heal.h Event/PlayerEvent/Enemy.cpp Event/PlayerEvent/Enemy.h Event/MapEvent/PressurePlate.cpp Event/MapEvent/PressurePlate.h Event/MapEvent/MapEvent.h Event/MapEvent/Victory.cpp Event/MapEvent/Victory.h Message/Message.h LogType/LogType.h Message/GameMessage.cpp Message/GameMessage.h Message/ErrorMessage.cpp Message/ErrorMessage.h Message/InfoMessage.cpp Message/InfoMessage.h Logger/ConsoleLogger/ConsoleLogger.cpp Logger/ConsoleLogger/ConsoleLogger.h Logger/Logger.h Logger/FileLogger/FileLogger.cpp Logger/FileLogger/FileLogger.h LogType/GameLog.cpp LogType/GameLog.h LogType/InfoLog.cpp LogType/InfoLog.h LogType/ErrorLog.cpp LogType/ErrorLog.h Logger/LoggerPool.cpp Logger/LoggerPool.h Logger/LoggerCreator.cpp Logger/LoggerCreator.h LogType/LogType.h Logger/Logger.h)

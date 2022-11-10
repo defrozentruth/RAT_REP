@@ -1,4 +1,4 @@
-#include "../GameLog/GameLog.h"
+#include "../LogType/GameLog.h"
 #pragma once
 
 class Field;

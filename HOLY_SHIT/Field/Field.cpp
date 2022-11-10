@@ -1,9 +1,9 @@
 #include <iostream>
 #include "../Cell/Cell.h"
 #include "Field.h"
-#include "../Heal/Heal.h"
-#include "../Enemy/Enemy.h"
-#include "../PressurePlate/PressurePlate.h"
+#include "../Event/PlayerEvent/Heal.h"
+#include "../Event/PlayerEvent/Enemy.h"
+#include "../Event/MapEvent/PressurePlate.h"
 
 Field::Field(int y, int x):y(y), x(x){
     field = new Cell*[y];
