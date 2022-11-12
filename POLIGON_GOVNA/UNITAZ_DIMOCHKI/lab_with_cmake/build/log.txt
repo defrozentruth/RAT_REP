@@ -1,0 +1,10 @@
+Info: Player created
+
+Info: Access changed
+
+Info: Event setted
+
+Game: You've found the treasures!
+
+Game: You won!
+
