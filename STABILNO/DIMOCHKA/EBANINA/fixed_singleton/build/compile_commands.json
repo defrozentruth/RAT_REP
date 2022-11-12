@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/main.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/main.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/main.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Events/Map_Events/earthquake.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Map_Events/earthquake.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Map_Events/earthquake.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Map_Events/sledge.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Map_Events/sledge.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Events/Player_Events/enemy.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Player_Events/enemy.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Player_Events/enemy.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Player_Events/overseer.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Player_Events/overseer.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Player_Events/trap.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Player_Events/trap.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Player_Events/win.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Events/Player_Events/win.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Execute/controller.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Execute/controller.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Execute/execute.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Execute/execute.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Execute/fieldview.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Execute/fieldview.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Logs/ConsoleLog.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Logs/ConsoleLog.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Logs/FileLog.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Logs/FileLog.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Logs/FileLog.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Logs/LogPool.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Logs/LogPool.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Logs/LogPool.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Logs/Message.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Logs/Message.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Logs/Message.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Map_Player/cell.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Map_Player/cell.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Map_Player/cell.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Map_Player/field.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Map_Player/field.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/THE_GAME.dir/Map_Player/player.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Map_Player/player.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/lab_with_cmake/Map_Player/player.cpp"
+}
+]
