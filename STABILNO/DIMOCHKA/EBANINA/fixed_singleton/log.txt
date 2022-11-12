@@ -1,0 +1,16 @@
+Info: Player created
+
+Info: Field initialized
+
+Info: Field initialized
+
+Info: Access changed
+
+Info: Event setted
+
+Game: You've found the treasures!
+
+Game: You won!
+
+Info: Game finished
+
