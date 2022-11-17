@@ -1,0 +1,4 @@
+Error: Invalid field size. The default constructor will be called
+
+Info: Game started!
+

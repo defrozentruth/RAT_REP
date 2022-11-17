@@ -1,11 +1,10 @@
 #include "../MapEvent/MapEvent.h"
-#include "../../LogType/GameLog.h"
 
 #pragma once
 
 class PressurePlate: public MapEvent{
 public:
     PressurePlate() = default;
-    void processEvent(Field *field, GameLog* GL) final;
+    void processEvent(Field *field) final;
     PressurePlate* copy() override;
 };

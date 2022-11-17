@@ -1,32 +1,29 @@
 #include "LoggerCreator.h"
 
-Logger** LoggerCreator::create(){
+std::vector<Logger*> LoggerCreator::create(){
     std::cout << "Choose log output format:\n1. Console\n2. File\n3. Console and File\n4. Without logs\n";
     int flag;
+    std::vector<Logger*> pool;
     std::cin >> flag;
     switch(flag){
         case 1:{
-            Logger **pool = new Logger*[2];
-            pool[0] = new ConsoleLogger();
-            pool[1] = nullptr;
+            pool.push_back(new ConsoleLogger);
             return pool;
         }
         case 2:{
-            Logger **pool = new Logger*[2];
-            pool[0] = new FileLogger();
-            pool[1] = nullptr;
+            pool.push_back(new FileLogger);
             return pool;
         }
         case 3: {
-            Logger **pool = new Logger*[2];
-            pool[0] = new ConsoleLogger();
-            pool[1] = new FileLogger();
+            pool.push_back(new ConsoleLogger);
+            pool.push_back(new FileLogger);
             return pool;
         }
         case 4:{
-            Logger **pool = nullptr;
+            pool.push_back(nullptr);
             return pool;
         }
     }
-    return nullptr;
+    pool.push_back(nullptr);
+    return pool;
 }

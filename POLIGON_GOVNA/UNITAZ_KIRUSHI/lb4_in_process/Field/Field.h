@@ -1,7 +1,6 @@
 #include "../Player/Player.h"
 #include "../Cell/Cell.h"
-#include "../LogType/GameLog.h"
-#include "../LogType/ErrorLog.h"
+#include "../Observer/Observer.h"
 
 #pragma once
 
@@ -26,5 +25,5 @@ public:
     int getWidth();
     void setFlag(int flag);
     int getFlag();
-    void move(int dx, int dy, GameLog* GL, ErrorLog* EL);
+    void move(int dx, int dy);
 };

@@ -80,7 +80,8 @@ void Field::setFlag(int flag){
 int Field::getFlag(){
     return flag;
 }
-void Field::move(int dx, int dy, GameLog* GL, ErrorLog* EL){
+void Field::move(int dx, int dy){
+    Observer* obs = Observer::get();
     int tempy = ply+dy;
     int tempx = plx+dx;
     if(tempy >= y){
@@ -100,14 +101,14 @@ void Field::move(int dx, int dy, GameLog* GL, ErrorLog* EL){
         this->ply = tempy;
         this->plx = tempx;
         field[ply][plx].setType(Cell::ACTIVE);
-        GL->moveLog(plx, ply);
+        obs->notify(Message::Level::Game, "Player's position changed. New position: [" + std::to_string(plx) + "," + std::to_string(ply) + "]\n");
         if(field[ply][plx].getEvent() != nullptr){
-            field[ply][plx].getEvent()->processEvent(this, GL);
+            field[ply][plx].getEvent()->processEvent(this);
             field[ply][plx].changeEvent(nullptr);
             field[ply][plx].setType(Cell::ACTIVE);
         }
     }
     else{
-        EL->impassableLog();
+        obs->notify(Message::Level::Error, "This cell isn't passable!");
     }
 }

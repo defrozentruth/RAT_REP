@@ -2,10 +2,10 @@
 #pragma once
 
 class LoggerPool{
-    Logger** logarr;
+    std::vector<Logger*> logarr;
 public:
     LoggerPool() = default;
-    void setPool(Logger** logarr);
+    void setPool(std::vector<Logger*> logarr);
     void printLog(Message* msg);
     ~LoggerPool();
 };

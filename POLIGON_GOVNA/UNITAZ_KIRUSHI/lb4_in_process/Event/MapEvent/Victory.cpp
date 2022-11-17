@@ -3,8 +3,9 @@
 #include <iostream>
 #include <windows.h>
 
-void Victory::processEvent(Field *field, GameLog* GL){
-    GL->winLog();
+void Victory::processEvent(Field *field){
+    Observer* obs = Observer::get();
+    obs->notify(Message::Level::Game, "You found a way out and got out of the dungeon!\n");
 //    std::cout << "You found a way out and got out of the dungeon!\n";
     field->setFlag(1);
 }

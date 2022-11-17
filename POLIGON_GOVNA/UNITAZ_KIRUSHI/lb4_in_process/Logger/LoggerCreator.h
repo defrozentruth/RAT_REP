@@ -1,10 +1,11 @@
-#include "../Logger/ConsoleLogger/ConsoleLogger.h"
-#include "../Logger/FileLogger/FileLogger.h"
+#include "ConsoleLogger.h"
+#include "FileLogger.h"
+#include <vector>
 #include <iostream>
 #pragma once
 
 class LoggerCreator{
 public:
     LoggerCreator() = default;
-    Logger** create();
+    std::vector<Logger*> create();
 };

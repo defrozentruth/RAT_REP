@@ -1,4 +1,5 @@
 #include "../Message/Message.h"
+#include <vector>
 #pragma once
 
 class Logger{
