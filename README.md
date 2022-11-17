@@ -16,3 +16,28 @@
 ![image](https://user-images.githubusercontent.com/90772773/198143019-2dd2257d-0028-420b-83f4-6a8c09648c25.png)
 
 ЖАНГИРОВ ОСТАНОВИСЬ ЖАНГИРОВ ОСТАНОВИСЬ ЖАНГИРОВ ОСТАВИСЬ
+
+Джентельменский набор, колеки:
+
+```cmake
+add_compile_options(
+        -fdiagnostics-color=always
+        -pedantic-errors
+        -Werror
+        -Wall
+        -Wextra
+        -Wpedantic
+        -Wcast-align
+        -Wcast-qual
+        -Wconversion
+        -Wctor-dtor-privacy
+        -Wduplicated-branches
+        -Wextra-semi
+        -Wenum-compare
+        -Wfloat-equal
+        -Wnon-virtual-dtor
+        -Woverloaded-virtual
+        -Wredundant-decls
+        -Wsign-conversion
+)
+```
