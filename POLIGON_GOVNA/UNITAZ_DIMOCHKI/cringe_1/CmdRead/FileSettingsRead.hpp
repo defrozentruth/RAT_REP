@@ -1,11 +1,11 @@
+#pragma once
+
 #include <fstream>
 #include <map>
 #include <string>
 #include "../Logs/LogPool.hpp"
 
-#pragma once
-
-enum Commands{
+enum Commands {
     Up,
     Left,
     Down,
@@ -13,9 +13,10 @@ enum Commands{
     Finish
 };
 
-class FileSettingsRead{
+class FileSettingsRead {
     std::map<std::string, Commands> associateCmd{};
+
 public:
     FileSettingsRead();
-    std:: map<std::string, Commands> getDirections();
+    std::map<std::string, Commands> getDirections();
 };
