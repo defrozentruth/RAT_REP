@@ -4,13 +4,16 @@
 #include "../player_events.hpp"
 #include "../../Logs/LogPool.hpp"
 
-class Overseer: public Player_Events{
+class Overseer : public Player_Events {
     int overseerLVL;
+
 protected:
     Player* player;
+
 public:
-    Overseer(Player* player, int overseerLVL = 5): player(player), overseerLVL(overseerLVL){};
-    void eventProc();
+    Overseer(Player* player, int overseerLVL = 5)
+        : player(player), overseerLVL(overseerLVL){};
+    void eventProc() override;
     Overseer* clone() override;
 };
 

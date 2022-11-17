@@ -8,7 +8,7 @@ class Sledge: public Map_Events{
     Field* field;
     public:
         Sledge(Field* field):field(field){};
-        void eventProc();
+        void eventProc() override;
         Sledge* clone() override;
 };
 

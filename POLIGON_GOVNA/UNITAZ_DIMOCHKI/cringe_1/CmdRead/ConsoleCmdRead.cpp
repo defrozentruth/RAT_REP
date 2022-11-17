@@ -3,17 +3,18 @@
 #include <string>
 #include <map>
 
-bool ConsoleCmdRead::getExitState(){
+bool ConsoleCmdRead::getExitState() const {
     return exitState;
 };
 
-Commands ConsoleCmdRead::readCmd(){
+Commands ConsoleCmdRead::readCmd() {
     std::string cmd;
-    do{
+    do {
         std::cin >> cmd;
         std::cout << "!" << cmd << "!\n";
-    }while(cmds.find(cmd) == cmds.end());
-    if(cmds.at(cmd) == Finish){
+    }
+    while (cmds.find(cmd) == cmds.end());
+    if (cmds.at(cmd) == Finish) {
         this->exitState = true;
     }
     return cmds.at(cmd);

@@ -1,7 +1,6 @@
 #include "Execute/execute.hpp"
 
-int main(){
-    Execute exe;
-    exe.run();
+int main() {
+    Execute().run();
     return 0;
 }

@@ -8,3 +8,7 @@ Info: Access changed
 
 Info: Event setted
 
+Game: You lost!
+
+Info: Game finished
+

@@ -4,13 +4,16 @@
 #include "../player_events.hpp"
 #include "../../Logs/LogPool.hpp"
 
-class Trap:public Player_Events{
+class Trap : public Player_Events {
     int lvl;
+
 protected:
     Player* player;
+
 public:
-    Trap(Player* player, int lvl = 1):player(player), lvl(lvl){};
-    void eventProc();
+    explicit Trap(Player* player, int lvl = 1)
+        : player(player), lvl(lvl){};
+    void eventProc() override;
     Trap* clone() override;
 };
 
