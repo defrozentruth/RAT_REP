@@ -137,22 +137,18 @@
         Commands cmd;
         Controller contr;
         FieldView fview;
-        //system("clear");
+        system("clear");
         fview.printField(field);
         std::cout << "Movement is set to WASD" << '\n';
         std::cout << "HP: " << field.getPlayer()->retHP() << " Agility: " << field.getPlayer()->retAgility() << " Attack: " << field.getPlayer()->retAttack() << " Score: "<< field.getPlayer()->retScore() <<'\n';
-        // std::cin >> cmd;
         cmd = cmdReader.readCmd();
-        while(/*cmd != 'X'*/cmdReader.getExitState() != true && field.getPlayer()->retWinState() != WIN && field.getPlayer()->retWinState() != LOSE){
-            //system("clear");
+        while(cmdReader.getExitState() != true && field.getPlayer()->retWinState() != WIN && field.getPlayer()->retWinState() != LOSE){
             contr.mover(cmd, field);
             std::cout << '\n';
             fview.printField(field);
-            //std::cout << "Movement is set to WASD" << '\n';
             std::cout << "HP: " << field.getPlayer()->retHP() << " Agility: " << field.getPlayer()->retAgility() << " Attack: " << field.getPlayer()->retAttack() << " Score: "<< field.getPlayer()->retScore()<< '\n';
             if(field.getPlayer()->retWinState() == WIN || field.getPlayer()->retWinState() == LOSE)
                 break;
-            // std::cin >> cmd;
             cmd = cmdReader.readCmd();
         }
         if(field.getPlayer()->retWinState() == WIN){

@@ -5,38 +5,18 @@ FileSettingsRead::FileSettingsRead(){
     LogPool* logger = LogPool::getInstance();
     std::string line;
     std::fstream file("../settings.txt");
-    getline(file, line, file.widen('\n'));
-    this->associateCmd[line] = Commands::Up;
-    
-    getline(file, line, file.widen('\n'));
-    this->associateCmd[line] = Commands::Left;
-    
-    getline(file, line, file.widen('\n'));
-    this->associateCmd[line] = Commands::Down;
-    
-    getline(file, line, file.widen('\n'));
-    this->associateCmd[line] = Commands::Right;
-    
-    getline(file, line, file.widen('\n'));
-    this->associateCmd[line] = Commands::Finish;
+    file << line;
+    associateCmd.insert(std::pair<std::string, Commands>(line, Up));
+    file << line;
+    associateCmd.insert(std::pair<std::string, Commands>(line, Left));
+    file << line;
+    associateCmd.insert(std::pair<std::string, Commands>(line, Down));
+    file << line;
+    associateCmd.insert(std::pair<std::string, Commands>(line, Right));
+    file << line;
+    associateCmd.insert(std::pair<std::string, Commands>(line, Finish));
     
 }
-
-// void FileSettingsRead::readCommands(){
-//     std::string cmd;
-//     if(file.is_open()){
-//         file << cmd;
-//         this->associateCmd[cmd] = Commands::Up;
-//         file << cmd;
-//         this->associateCmd[cmd] = Commands::Left;
-//         file << cmd;
-//         this->associateCmd[cmd] = Commands::Down;
-//         file << cmd;
-//         this->associateCmd[cmd] = Commands::Right;
-//         file << cmd;
-//         this->associateCmd[cmd] = Commands::Finish;
-//     }
-// }
 
 std::map <std::string, Commands> FileSettingsRead::getDirections(){
     return this->associateCmd;

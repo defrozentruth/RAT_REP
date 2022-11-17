@@ -14,10 +14,8 @@ enum Commands{
 };
 
 class FileSettingsRead{
-    //std::fstream file;
     std::map<std::string, Commands> associateCmd{};
 public:
     FileSettingsRead();
     std:: map<std::string, Commands> getDirections();
-    //void readCommands();
 };
