@@ -1,0 +1,14 @@
+Info: Player created
+
+Info: Field initialized
+
+Info: Field initialized
+
+Info: Access changed
+
+Info: Event setted
+
+Game: You lost!
+
+Info: Game finished
+
