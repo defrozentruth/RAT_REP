@@ -16,9 +16,9 @@ class FieldGen;
 class SecondLevel : public LevelType{
     LevelGenerator<
         CellAccessRule<20>,
-        EnemyRule<10>,
+        EnemyRule<20>,
         OverseerRule<3>,
-        PlayerSpawnRule<5, 4>,
+        PlayerSpawnRule<5,5>,
         SledgeRule<3>,
         TrapRule<10>,
         WinRule<1,1>

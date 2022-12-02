@@ -61,27 +61,27 @@
         }
         FieldView testView;
         testView.printField(*(generator.create()));
-        Field field = *(generator.create());
+        Field* field = generator.create();
         FileSettingsRead commands;
         ConsoleCmdRead cmdReader(commands.getDirections());
         Commands cmd;
         Controller contr;
         FieldView fview;
         system("clear");
-        fview.printField(field);
-        std::cout << "HP: " << field.getPlayer()->retHP() << " Agility: " << field.getPlayer()->retAgility() << " Attack: " << field.getPlayer()->retAttack() << " Score: "<< field.getPlayer()->retScore() <<'\n';
+        fview.printField(*field);
+        std::cout << "HP: " << field->getPlayer()->retHP() << " Agility: " << field->getPlayer()->retAgility() << " Attack: " << field->getPlayer()->retAttack() << " Score: "<< field->getPlayer()->retScore() <<'\n';
         cmd = cmdReader.readCmd();
-        while(cmdReader.getExitState() != true && field.getPlayer()->retWinState() != WIN && field.getPlayer()->retWinState() != LOSE){
+        while(cmdReader.getExitState() != true && field->getPlayer()->retWinState() != WIN && field->getPlayer()->retWinState() != LOSE){
             system("clear");
-            contr.mover(cmd, field);
+            contr.mover(cmd, *field);
             std::cout << '\n';
-            fview.printField(field);
-            std::cout << "HP: " << field.getPlayer()->retHP() << " Agility: " << field.getPlayer()->retAgility() << " Attack: " << field.getPlayer()->retAttack() << " Score: "<< field.getPlayer()->retScore()<< '\n';
-            if(field.getPlayer()->retWinState() == WIN || field.getPlayer()->retWinState() == LOSE)
+            fview.printField(*field);
+            std::cout << "HP: " << field->getPlayer()->retHP() << " Agility: " << field->getPlayer()->retAgility() << " Attack: " << field->getPlayer()->retAttack() << " Score: "<< field->getPlayer()->retScore()<< '\n';
+            if(field->getPlayer()->retWinState() == WIN || field->getPlayer()->retWinState() == LOSE)
                 break;
             cmd = cmdReader.readCmd();
         }
-        if(field.getPlayer()->retWinState() == WIN){
+        if(field->getPlayer()->retWinState() == WIN){
             if(logger->logging(Game) == true)
                 logger->printLog(Game, "You won!\n");
         }else{

@@ -20,10 +20,14 @@ void FieldGen::setLevel(Level level){
         case First:
             setType(new FirstLevel());
             break;
+        case Second:
+            setType(new SecondLevel());
+            break;
     }
 }
 
 void FieldGen::setScheme(){
+    
     this->scheme = type->generate(this->scheme);
 }
 
