@@ -1,0 +1,112 @@
+[
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/main.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/main.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/main.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Events/Map_Events/earthquake.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Map_Events/earthquake.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Map_Events/earthquake.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Map_Events/sledge.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Map_Events/sledge.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Events/Player_Events/enemy.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/enemy.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/enemy.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/overseer.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/overseer.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/trap.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/trap.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/win.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/win.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/controller.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/controller.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/execute.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/execute.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/fieldview.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/fieldview.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/ConsoleLog.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/ConsoleLog.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Logs/FileLog.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/FileLog.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/FileLog.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Logs/LogPool.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/LogPool.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/LogPool.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Logs/Message.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/Message.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/Message.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Map_Player/cell.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Map_Player/cell.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Map_Player/cell.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Map_Player/field.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Map_Player/field.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Map_Player/player.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Map_Player/player.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Map_Player/player.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/CmdRead/ConsoleCmdRead.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/CmdRead/ConsoleCmdRead.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/CmdRead/ConsoleCmdRead.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/CmdRead/FileSettingsRead.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/CmdRead/FileSettingsRead.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/FieldGen.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/FieldGen.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/FirstLevel.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/FirstLevel.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/SecondLevel.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/SecondLevel.cpp"
+}
+]
