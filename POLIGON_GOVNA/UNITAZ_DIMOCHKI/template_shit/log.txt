@@ -1,0 +1,10 @@
+[Error]: SUS AMOGUS DETECTED
+
+[Info]: Field initialized
+
+[Game]: You've found the treasures!
+
+[Game]: You won!
+
+[Info]: Game finished
+

@@ -3,9 +3,9 @@
 
 
 FieldScheme& SecondLevel::generate(FieldScheme& scheme){
-    scheme.getMask().resize(10);
+    scheme.getMask().resize(20);
     for (auto& row : scheme.getMask()){
-        row.resize(10);
+        row.resize(20);
     }
     return generator.generate(scheme);
 }

@@ -1,0 +1,18 @@
+[Info]: Field initialized
+
+[Game]: You've found a healing flask!
+
+[Game]: All walls have fell!
+
+[Game]: You fell into a pit and broke your leg!
+
+[Game]: You fell into a pit and broke your leg!
+
+[Game]: You're facing the enemy!
+
+[Game]: You have lost!
+
+[Game]: You lost!
+
+[Info]: Game finished
+
