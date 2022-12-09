@@ -12,7 +12,7 @@ class Player{
     bool overseer;
     int score;
     public:
-        Player(int hp = 10, int agility = 1, int atk = 1);
+        Player(int hp = 10, int agility = 1, int atk = 3);
         void decHP(int hp);
         void setHP(int hp);
         int retHP();

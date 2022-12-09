@@ -36,6 +36,11 @@
 },
 {
   "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/Heal.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/Heal.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
   "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/controller.cpp",
   "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/controller.cpp"
 },
@@ -108,5 +113,10 @@
   "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
   "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/SecondLevel.cpp",
   "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/SecondLevel.cpp"
+},
+{
+  "directory": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/TestLevel.cpp",
+  "file": "/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/TestLevel.cpp"
 }
 ]

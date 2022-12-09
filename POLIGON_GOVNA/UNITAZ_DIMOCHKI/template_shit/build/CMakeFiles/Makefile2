@@ -858,12 +858,12 @@ CMakeFiles/ExperimentalStart.dir/clean:
 CMakeFiles/THE_GAME.dir/all:
 	$(MAKE) -f CMakeFiles/THE_GAME.dir/build.make CMakeFiles/THE_GAME.dir/depend
 	$(MAKE) -f CMakeFiles/THE_GAME.dir/build.make CMakeFiles/THE_GAME.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target THE_GAME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25 "Built target THE_GAME"
 .PHONY : CMakeFiles/THE_GAME.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/THE_GAME.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/THE_GAME.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles 0
 .PHONY : CMakeFiles/THE_GAME.dir/rule

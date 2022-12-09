@@ -33,6 +33,9 @@
                                         if(dynamic_cast<Sledge*>(temp[i][j].eventAccess()) != nullptr){
                                             std::cout << "[P]";
                                         }
+                                        if(dynamic_cast<Heal*>(temp[i][j].eventAccess()) != nullptr){
+                                            std::cout << "[+]";
+                                        }
                                     }else
                                         std::cout << "[?]";
                         }

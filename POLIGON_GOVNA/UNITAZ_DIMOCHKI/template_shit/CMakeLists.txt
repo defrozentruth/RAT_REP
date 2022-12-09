@@ -19,7 +19,9 @@ add_executable(THE_GAME
                 Events/Player_Events/trap.hpp 
                 Events/Player_Events/trap.cpp 
                 Events/Player_Events/win.hpp 
-                Events/Player_Events/win.cpp 
+                Events/Player_Events/win.cpp
+                Events/Player_Events/Heal.cpp
+                Events/Player_Events/Heal.hpp 
                 Events/event.hpp 
                 Events/map_events.hpp 
                 Events/player_events.hpp 
@@ -56,15 +58,18 @@ add_executable(THE_GAME
                 Field_Generator/Levels/FirstLevel.cpp
                 Field_Generator/Levels/SecondLevel.hpp
                 Field_Generator/Levels/SecondLevel.cpp
+                Field_Generator/Levels/TestLevel.hpp
+                Field_Generator/Levels/TestLevel.cpp
                 Field_Generator/Levels/LevelGenerator.hpp
                 Field_Generator/Levels/LevelType.hpp
-                Field_Generator/Rules/CellAccessRule.hpp
-                Field_Generator/Rules/EnemyRule.hpp
-                Field_Generator/Rules/OverseerRule.hpp
+                Field_Generator/Rules/CoordCellAccessRule.hpp
+                Field_Generator/Rules/CoordEventRule.hpp
+                Field_Generator/Rules/HorCellAccessLineRule.hpp
                 Field_Generator/Rules/PlayerSpawnRule.hpp
-                Field_Generator/Rules/SledgeRule.hpp
-                Field_Generator/Rules/TrapRule.hpp
-                Field_Generator/Rules/WinRule.hpp)
+                Field_Generator/Rules/RandCellAccessAmountRule.hpp
+                Field_Generator/Rules/RandEventAmountRule.hpp
+                Field_Generator/Rules/VertCellAccessLineRule.hpp
+                Field_Generator/Rules/WinSpawnRule.hpp)
 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

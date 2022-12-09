@@ -3,7 +3,7 @@
 #include "../FieldScheme.hpp"
 
 enum Level{
-    First, Second
+    First, Second, Test
 };
 
 class LevelType{

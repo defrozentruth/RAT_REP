@@ -10,6 +10,8 @@
                 this->map[i] = new Cell[size_x];
             }
             this->player = new Player();
+            this->player_x = 0;
+            this->player_y = 0;
             if (logger->logging(Info) == true){
                 logger->printLog(Info, "Field initialized\n");
             }

@@ -7,14 +7,18 @@ enum CellType{
     Free,
     PlayerPos, 
     Block,
-    SledgeM,
-    EnemyM,
-    OverseerM,
-    TrapM,
+    EventM,
     WinM
 };
 
-
+enum Events{
+    EEnemy,
+    EHeal,
+    EOverseer,
+    ETrap,
+    EWin,
+    ESledge
+};
 
 class FieldScheme{
     std::vector<std::vector <CellType>> mask;

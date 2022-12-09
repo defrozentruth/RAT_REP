@@ -50,17 +50,20 @@
         }
         FieldGen generator;
         choice = ' ';
-        std::cout << "Which level do you want?\n Type 1 if you want 5x5 or 2 for 10x10\n";
-        while(choice != '1' && choice != '2'){
+        std::cout << "Which level do you want?\n1. 5x5 field\n2. 20x20 field\n";
+        while(choice != '1' && choice != '2' && choice != 'A'){
             std::cin >> choice;
         };
         if (choice == '1'){
             generator.setLevel(First);
-        }else{
+        }
+        if (choice == '2'){
             generator.setLevel(Second);
         }
-        FieldView testView;
-        testView.printField(*(generator.create()));
+        if (choice == 'A'){
+            logger->printLog(Error, "SUS AMOGUS DETECTED\n");
+            generator.setLevel(Test);
+        }
         Field* field = generator.create();
         FileSettingsRead commands;
         ConsoleCmdRead cmdReader(commands.getDirections());

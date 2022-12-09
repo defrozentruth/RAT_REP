@@ -6,7 +6,7 @@
             this->attack = attack;
             this->winState = 0;
             this->score = 0;
-            this->overseer = true;
+            this->overseer = false;
         }
         void Player::decHP(int hp){
             this->hp = this->hp - hp;

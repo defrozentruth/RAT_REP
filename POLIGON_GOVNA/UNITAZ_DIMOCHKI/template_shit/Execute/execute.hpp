@@ -11,6 +11,7 @@
 #include "../Field_Generator/FieldGen.hpp"
 #include "../Field_Generator/Levels/FirstLevel.hpp"
 #include "../Field_Generator/Levels/SecondLevel.hpp"
+#include "../Field_Generator/Levels/TestLevel.hpp"
 
 class Execute{
 public:

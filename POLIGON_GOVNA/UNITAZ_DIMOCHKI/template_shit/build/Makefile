@@ -628,6 +628,33 @@ Events/Map_Events/sledge.cpp.s:
 	$(MAKE) -f CMakeFiles/THE_GAME.dir/build.make CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.s
 .PHONY : Events/Map_Events/sledge.cpp.s
 
+Events/Player_Events/Heal.o: Events/Player_Events/Heal.cpp.o
+
+.PHONY : Events/Player_Events/Heal.o
+
+# target to build an object file
+Events/Player_Events/Heal.cpp.o:
+	$(MAKE) -f CMakeFiles/THE_GAME.dir/build.make CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o
+.PHONY : Events/Player_Events/Heal.cpp.o
+
+Events/Player_Events/Heal.i: Events/Player_Events/Heal.cpp.i
+
+.PHONY : Events/Player_Events/Heal.i
+
+# target to preprocess a source file
+Events/Player_Events/Heal.cpp.i:
+	$(MAKE) -f CMakeFiles/THE_GAME.dir/build.make CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.i
+.PHONY : Events/Player_Events/Heal.cpp.i
+
+Events/Player_Events/Heal.s: Events/Player_Events/Heal.cpp.s
+
+.PHONY : Events/Player_Events/Heal.s
+
+# target to generate assembly for a file
+Events/Player_Events/Heal.cpp.s:
+	$(MAKE) -f CMakeFiles/THE_GAME.dir/build.make CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.s
+.PHONY : Events/Player_Events/Heal.cpp.s
+
 Events/Player_Events/enemy.o: Events/Player_Events/enemy.cpp.o
 
 .PHONY : Events/Player_Events/enemy.o
@@ -898,6 +925,33 @@ Field_Generator/Levels/SecondLevel.cpp.s:
 	$(MAKE) -f CMakeFiles/THE_GAME.dir/build.make CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.s
 .PHONY : Field_Generator/Levels/SecondLevel.cpp.s
 
+Field_Generator/Levels/TestLevel.o: Field_Generator/Levels/TestLevel.cpp.o
+
+.PHONY : Field_Generator/Levels/TestLevel.o
+
+# target to build an object file
+Field_Generator/Levels/TestLevel.cpp.o:
+	$(MAKE) -f CMakeFiles/THE_GAME.dir/build.make CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o
+.PHONY : Field_Generator/Levels/TestLevel.cpp.o
+
+Field_Generator/Levels/TestLevel.i: Field_Generator/Levels/TestLevel.cpp.i
+
+.PHONY : Field_Generator/Levels/TestLevel.i
+
+# target to preprocess a source file
+Field_Generator/Levels/TestLevel.cpp.i:
+	$(MAKE) -f CMakeFiles/THE_GAME.dir/build.make CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.i
+.PHONY : Field_Generator/Levels/TestLevel.cpp.i
+
+Field_Generator/Levels/TestLevel.s: Field_Generator/Levels/TestLevel.cpp.s
+
+.PHONY : Field_Generator/Levels/TestLevel.s
+
+# target to generate assembly for a file
+Field_Generator/Levels/TestLevel.cpp.s:
+	$(MAKE) -f CMakeFiles/THE_GAME.dir/build.make CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.s
+.PHONY : Field_Generator/Levels/TestLevel.cpp.s
+
 Logs/ConsoleLog.o: Logs/ConsoleLog.cpp.o
 
 .PHONY : Logs/ConsoleLog.o
@@ -1166,6 +1220,9 @@ help:
 	@echo "... Events/Map_Events/sledge.o"
 	@echo "... Events/Map_Events/sledge.i"
 	@echo "... Events/Map_Events/sledge.s"
+	@echo "... Events/Player_Events/Heal.o"
+	@echo "... Events/Player_Events/Heal.i"
+	@echo "... Events/Player_Events/Heal.s"
 	@echo "... Events/Player_Events/enemy.o"
 	@echo "... Events/Player_Events/enemy.i"
 	@echo "... Events/Player_Events/enemy.s"
@@ -1196,6 +1253,9 @@ help:
 	@echo "... Field_Generator/Levels/SecondLevel.o"
 	@echo "... Field_Generator/Levels/SecondLevel.i"
 	@echo "... Field_Generator/Levels/SecondLevel.s"
+	@echo "... Field_Generator/Levels/TestLevel.o"
+	@echo "... Field_Generator/Levels/TestLevel.i"
+	@echo "... Field_Generator/Levels/TestLevel.s"
 	@echo "... Logs/ConsoleLog.o"
 	@echo "... Logs/ConsoleLog.i"
 	@echo "... Logs/ConsoleLog.s"

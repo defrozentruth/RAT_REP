@@ -10,18 +10,17 @@
 #include "../Events/Player_Events/win.hpp"
 
 
-void FieldGen::setType(LevelType* type){
-    this->type = type;
-}
-
 void FieldGen::setLevel(Level level){
     this->level = level;
     switch(level){
         case First:
-            setType(new FirstLevel());
+            this->type = new FirstLevel();
             break;
         case Second:
-            setType(new SecondLevel());
+            this->type = new SecondLevel();
+            break;
+        case Test:
+            this->type = new TestLevel();
             break;
     }
 }
@@ -30,6 +29,43 @@ void FieldGen::setScheme(){
     
     this->scheme = type->generate(this->scheme);
 }
+
+void FieldGen::setRandEvent(Field* field, int x, int y){
+    std::random_device rd; // obtain a random number from hardware
+    std::mt19937 gen(rd()); // seed the generator
+    std::uniform_int_distribution<> distr(0, 5); // define the range
+    int r = distr(gen);
+    std::uniform_int_distribution<> statsDistr(1, 8); // define the range
+
+    switch (r){
+        case 0:
+            field->getField()[y][x].changeEvent(new Enemy(field->getPlayer(), statsDistr(gen), statsDistr(gen), statsDistr(gen)));
+            field->getField()[y][x].changeEventPresence(true);
+            break;
+        case 1:
+            field->getField()[y][x].changeEvent(new Heal(field->getPlayer(), statsDistr(gen)));
+            field->getField()[y][x].changeEventPresence(true);
+            break;
+        case 2:
+            field->getField()[y][x].changeEvent(new Overseer(field->getPlayer(), statsDistr(gen)));
+            field->getField()[y][x].changeEventPresence(true);
+            break;
+        case 3:
+            field->getField()[y][x].changeEvent(new Trap(field->getPlayer(), statsDistr(gen)));
+            field->getField()[y][x].changeEventPresence(true);
+            break;
+        case 4:
+            field->getField()[y][x].changeEvent(new Win(field->getPlayer()));
+            field->getField()[y][x].changeEventPresence(true);
+            break;
+        case 5:
+            field->getField()[y][x].changeEvent(new Sledge(field));
+            field->getField()[y][x].changeEventPresence(true);
+            break;
+        default:
+            break;
+    }
+}       
 
 Field* FieldGen::create(){
     this->setScheme();
@@ -41,30 +77,17 @@ Field* FieldGen::create(){
                 case CellType::Block:
                     field->getField()[i][j].changeAccess(false);
                     break;
-                case CellType::EnemyM:
-                    field->getField()[i][j].changeEvent(new Enemy(field->getPlayer(), 1+(std::rand() % 10), 1+(std::rand() % 10), 1+(std::rand() % 10)));
-                    field->getField()[i][j].changeEventPresence(true);
-                    break;
-                case CellType::OverseerM:
-                    field->getField()[i][j].changeEvent(new Overseer(field->getPlayer(), 1+(std::rand() % 10)));
-                    field->getField()[i][j].changeEventPresence(true);
-                    break;
                 case CellType::PlayerPos:
                     field->setPlayerX(j);
                     field->setPlayerY(i);
                     field->getField()[i][j].playerVisit();
                     break;
-                case CellType::SledgeM:
-                    field->getField()[i][j].changeEvent(new Sledge(field));
-                    field->getField()[i][j].changeEventPresence(true);
-                    break;
-                case CellType::TrapM:
-                    field->getField()[i][j].changeEvent(new Trap(field->getPlayer(), 1+(std::rand() % 10)));
-                    field->getField()[i][j].changeEventPresence(true);
-                    break;
                 case CellType::WinM:
                     field->getField()[i][j].changeEvent(new Win(field->getPlayer()));
                     field->getField()[i][j].changeEventPresence(true);
+                    break;
+                case CellType::EventM:
+                    setRandEvent(field, j, i);
                     break;
                 default:
                     break;

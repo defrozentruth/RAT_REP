@@ -148,9 +148,22 @@ CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/win.cpp -o CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.s
 
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/Player_Events/Heal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/Heal.cpp
+
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/Heal.cpp > CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.i
+
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Events/Player_Events/Heal.cpp -o CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.s
+
 CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o: ../Execute/controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/controller.cpp
 
 CMakeFiles/THE_GAME.dir/Execute/controller.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/THE_GAME.dir/Execute/controller.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Execute/execute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/execute.cpp
 
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/THE_GAME.dir/Execute/execute.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o: ../Execute/fieldview.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Execute/fieldview.cpp
 
 CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.o: ../Logs/ConsoleLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/ConsoleLog.cpp
 
 CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Logs/FileLog.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Logs/FileLog.cpp.o: ../Logs/FileLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/THE_GAME.dir/Logs/FileLog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/THE_GAME.dir/Logs/FileLog.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Logs/FileLog.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/FileLog.cpp
 
 CMakeFiles/THE_GAME.dir/Logs/FileLog.cpp.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/THE_GAME.dir/Logs/FileLog.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Logs/LogPool.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Logs/LogPool.cpp.o: ../Logs/LogPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/THE_GAME.dir/Logs/LogPool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/THE_GAME.dir/Logs/LogPool.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Logs/LogPool.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/LogPool.cpp
 
 CMakeFiles/THE_GAME.dir/Logs/LogPool.cpp.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/THE_GAME.dir/Logs/LogPool.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Logs/Message.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Logs/Message.cpp.o: ../Logs/Message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/THE_GAME.dir/Logs/Message.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/THE_GAME.dir/Logs/Message.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Logs/Message.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Logs/Message.cpp
 
 CMakeFiles/THE_GAME.dir/Logs/Message.cpp.i: cmake_force
@@ -241,7 +254,7 @@ CMakeFiles/THE_GAME.dir/Logs/Message.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Map_Player/cell.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Map_Player/cell.cpp.o: ../Map_Player/cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/THE_GAME.dir/Map_Player/cell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/THE_GAME.dir/Map_Player/cell.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Map_Player/cell.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Map_Player/cell.cpp
 
 CMakeFiles/THE_GAME.dir/Map_Player/cell.cpp.i: cmake_force
@@ -254,7 +267,7 @@ CMakeFiles/THE_GAME.dir/Map_Player/cell.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o: ../Map_Player/field.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Map_Player/field.cpp
 
 CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.i: cmake_force
@@ -267,7 +280,7 @@ CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Map_Player/player.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Map_Player/player.cpp.o: ../Map_Player/player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/THE_GAME.dir/Map_Player/player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/THE_GAME.dir/Map_Player/player.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Map_Player/player.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Map_Player/player.cpp
 
 CMakeFiles/THE_GAME.dir/Map_Player/player.cpp.i: cmake_force
@@ -280,7 +293,7 @@ CMakeFiles/THE_GAME.dir/Map_Player/player.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/CmdRead/ConsoleCmdRead.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/CmdRead/ConsoleCmdRead.cpp.o: ../CmdRead/ConsoleCmdRead.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/THE_GAME.dir/CmdRead/ConsoleCmdRead.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/THE_GAME.dir/CmdRead/ConsoleCmdRead.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/CmdRead/ConsoleCmdRead.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/CmdRead/ConsoleCmdRead.cpp
 
 CMakeFiles/THE_GAME.dir/CmdRead/ConsoleCmdRead.cpp.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/THE_GAME.dir/CmdRead/ConsoleCmdRead.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.o: ../CmdRead/FileSettingsRead.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/CmdRead/FileSettingsRead.cpp
 
 CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/FieldGen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/FieldGen.cpp
 
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Levels/FirstLevel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/FirstLevel.cpp
 
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.s: cmake_force
 
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Levels/SecondLevel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/SecondLevel.cpp
 
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.i: cmake_force
@@ -343,6 +356,19 @@ CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/SecondLevel.cpp -o CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.s
 
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: CMakeFiles/THE_GAME.dir/flags.make
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Levels/TestLevel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o -c /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/TestLevel.cpp
+
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/TestLevel.cpp > CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.i
+
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/Field_Generator/Levels/TestLevel.cpp -o CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.s
+
 # Object files for target THE_GAME
 THE_GAME_OBJECTS = \
 "CMakeFiles/THE_GAME.dir/main.cpp.o" \
@@ -352,6 +378,7 @@ THE_GAME_OBJECTS = \
 "CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o" \
 "CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o" \
 "CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o" \
+"CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o" \
 "CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o" \
 "CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o" \
 "CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o" \
@@ -366,7 +393,8 @@ THE_GAME_OBJECTS = \
 "CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.o" \
 "CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o" \
 "CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o" \
-"CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o"
+"CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o" \
+"CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o"
 
 # External object files for target THE_GAME
 THE_GAME_EXTERNAL_OBJECTS =
@@ -378,6 +406,7 @@ THE_GAME: CMakeFiles/THE_GAME.dir/Events/Player_Events/enemy.cpp.o
 THE_GAME: CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o
 THE_GAME: CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o
 THE_GAME: CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o
+THE_GAME: CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o
 THE_GAME: CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o
 THE_GAME: CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o
 THE_GAME: CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o
@@ -393,9 +422,10 @@ THE_GAME: CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.o
 THE_GAME: CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o
 THE_GAME: CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o
 THE_GAME: CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o
+THE_GAME: CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o
 THE_GAME: CMakeFiles/THE_GAME.dir/build.make
 THE_GAME: CMakeFiles/THE_GAME.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable THE_GAME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/defrozen/working_stuff/RAT_REP/POLIGON_GOVNA/UNITAZ_DIMOCHKI/template_shit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable THE_GAME"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/THE_GAME.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

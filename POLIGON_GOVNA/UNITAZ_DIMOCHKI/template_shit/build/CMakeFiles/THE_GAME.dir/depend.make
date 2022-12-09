@@ -22,6 +22,7 @@ CMakeFiles/THE_GAME.dir/CmdRead/FileSettingsRead.cpp.o: ../Logs/Message.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/earthquake.cpp.o: ../Events/Map_Events/earthquake.cpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/earthquake.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/earthquake.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Events/Map_Events/earthquake.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/earthquake.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/earthquake.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/earthquake.cpp.o: ../Events/Player_Events/trap.hpp
@@ -41,6 +42,7 @@ CMakeFiles/THE_GAME.dir/Events/Map_Events/earthquake.cpp.o: ../Map_Player/player
 CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o: ../Events/Map_Events/sledge.cpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o: ../Events/Player_Events/trap.hpp
@@ -57,8 +59,29 @@ CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o: ../Map_Player/cell.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o: ../Map_Player/field.hpp
 CMakeFiles/THE_GAME.dir/Events/Map_Events/sledge.cpp.o: ../Map_Player/player.hpp
 
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/Map_Events/earthquake.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/Player_Events/Heal.cpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/Player_Events/Heal.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/Player_Events/enemy.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/Player_Events/overseer.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/Player_Events/trap.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/Player_Events/win.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/event.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/map_events.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Events/player_events.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Logs/ConsoleLog.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Logs/FileLog.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Logs/LogPool.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Logs/Logger.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Logs/Message.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Map_Player/cell.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Map_Player/field.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/Heal.cpp.o: ../Map_Player/player.hpp
+
 CMakeFiles/THE_GAME.dir/Events/Player_Events/enemy.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/enemy.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/enemy.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/enemy.cpp.o: ../Events/Player_Events/enemy.cpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/enemy.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/enemy.cpp.o: ../Events/Player_Events/overseer.hpp
@@ -78,6 +101,7 @@ CMakeFiles/THE_GAME.dir/Events/Player_Events/enemy.cpp.o: ../Map_Player/player.h
 
 CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o: ../Events/Player_Events/overseer.cpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o: ../Events/Player_Events/overseer.hpp
@@ -97,6 +121,7 @@ CMakeFiles/THE_GAME.dir/Events/Player_Events/overseer.cpp.o: ../Map_Player/playe
 
 CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o: ../Events/Player_Events/trap.cpp
@@ -116,6 +141,7 @@ CMakeFiles/THE_GAME.dir/Events/Player_Events/trap.cpp.o: ../Map_Player/player.hp
 
 CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o: ../Events/Player_Events/trap.hpp
@@ -136,6 +162,7 @@ CMakeFiles/THE_GAME.dir/Events/Player_Events/win.cpp.o: ../Map_Player/player.hpp
 CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o: ../CmdRead/FileSettingsRead.hpp
 CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Execute/controller.cpp.o: ../Events/Player_Events/trap.hpp
@@ -159,6 +186,7 @@ CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../CmdRead/FileSettingsRead.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../CmdRead/ICmdRead.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Events/Player_Events/trap.hpp
@@ -176,13 +204,15 @@ CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Levels/FirstLe
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Levels/LevelGenerator.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Levels/LevelType.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Levels/SecondLevel.hpp
-CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/CellAccessRule.hpp
-CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/EnemyRule.hpp
-CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/OverseerRule.hpp
+CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Levels/TestLevel.hpp
+CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/CoordCellAccessRule.hpp
+CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/CoordEventRule.hpp
+CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/HorCellAccessLineRule.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/PlayerSpawnRule.hpp
-CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/SledgeRule.hpp
-CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/TrapRule.hpp
-CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/WinRule.hpp
+CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/RandCellAccessAmountRule.hpp
+CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/RandEventAmountRule.hpp
+CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/VertCellAccessLineRule.hpp
+CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Field_Generator/Rules/WinSpawnRule.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Logs/ConsoleLog.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Logs/FileLog.hpp
 CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Logs/LogPool.hpp
@@ -194,6 +224,7 @@ CMakeFiles/THE_GAME.dir/Execute/execute.cpp.o: ../Map_Player/player.hpp
 
 CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o: ../Events/Player_Events/trap.hpp
@@ -214,6 +245,7 @@ CMakeFiles/THE_GAME.dir/Execute/fieldview.cpp.o: ../Map_Player/player.hpp
 
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Events/Player_Events/trap.hpp
@@ -228,13 +260,15 @@ CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Level
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Levels/LevelGenerator.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Levels/LevelType.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Levels/SecondLevel.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/CellAccessRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/EnemyRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/OverseerRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Levels/TestLevel.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/CoordCellAccessRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/CoordEventRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/HorCellAccessLineRule.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/PlayerSpawnRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/SledgeRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/TrapRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/WinRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/RandCellAccessAmountRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/RandEventAmountRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/VertCellAccessLineRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Field_Generator/Rules/WinSpawnRule.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Logs/ConsoleLog.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Logs/FileLog.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Logs/LogPool.hpp
@@ -246,6 +280,7 @@ CMakeFiles/THE_GAME.dir/Field_Generator/FieldGen.cpp.o: ../Map_Player/player.hpp
 
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Events/Player_Events/trap.hpp
@@ -260,13 +295,15 @@ CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Genera
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Levels/LevelGenerator.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Levels/LevelType.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Levels/SecondLevel.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/CellAccessRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/EnemyRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/OverseerRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Levels/TestLevel.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/CoordCellAccessRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/CoordEventRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/HorCellAccessLineRule.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/PlayerSpawnRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/SledgeRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/TrapRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/WinRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/RandCellAccessAmountRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/RandEventAmountRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/VertCellAccessLineRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Field_Generator/Rules/WinSpawnRule.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Logs/ConsoleLog.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Logs/FileLog.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Logs/LogPool.hpp
@@ -278,6 +315,7 @@ CMakeFiles/THE_GAME.dir/Field_Generator/Levels/FirstLevel.cpp.o: ../Map_Player/p
 
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Events/Player_Events/trap.hpp
@@ -292,13 +330,15 @@ CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Gener
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Levels/LevelType.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Levels/SecondLevel.cpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Levels/SecondLevel.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/CellAccessRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/EnemyRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/OverseerRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Levels/TestLevel.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/CoordCellAccessRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/CoordEventRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/HorCellAccessLineRule.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/PlayerSpawnRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/SledgeRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/TrapRule.hpp
-CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/WinRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/RandCellAccessAmountRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/RandEventAmountRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/VertCellAccessLineRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Field_Generator/Rules/WinSpawnRule.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Logs/ConsoleLog.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Logs/FileLog.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Logs/LogPool.hpp
@@ -307,6 +347,41 @@ CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Logs/Messag
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Map_Player/cell.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Map_Player/field.hpp
 CMakeFiles/THE_GAME.dir/Field_Generator/Levels/SecondLevel.cpp.o: ../Map_Player/player.hpp
+
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Events/Map_Events/earthquake.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Events/Player_Events/Heal.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Events/Player_Events/enemy.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Events/Player_Events/overseer.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Events/Player_Events/trap.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Events/Player_Events/win.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Events/event.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Events/map_events.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Events/player_events.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/FieldGen.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/FieldScheme.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Levels/FirstLevel.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Levels/LevelGenerator.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Levels/LevelType.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Levels/SecondLevel.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Levels/TestLevel.cpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Levels/TestLevel.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Rules/CoordCellAccessRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Rules/CoordEventRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Rules/HorCellAccessLineRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Rules/PlayerSpawnRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Rules/RandCellAccessAmountRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Rules/RandEventAmountRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Rules/VertCellAccessLineRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Field_Generator/Rules/WinSpawnRule.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Logs/ConsoleLog.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Logs/FileLog.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Logs/LogPool.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Logs/Logger.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Logs/Message.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Map_Player/cell.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Map_Player/field.hpp
+CMakeFiles/THE_GAME.dir/Field_Generator/Levels/TestLevel.cpp.o: ../Map_Player/player.hpp
 
 CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.o: ../Logs/ConsoleLog.cpp
 CMakeFiles/THE_GAME.dir/Logs/ConsoleLog.cpp.o: ../Logs/ConsoleLog.hpp
@@ -334,6 +409,7 @@ CMakeFiles/THE_GAME.dir/Map_Player/cell.cpp.o: ../Map_Player/cell.hpp
 
 CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/Map_Player/field.cpp.o: ../Events/Player_Events/trap.hpp
@@ -359,6 +435,7 @@ CMakeFiles/THE_GAME.dir/main.cpp.o: ../CmdRead/FileSettingsRead.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../CmdRead/ICmdRead.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Events/Map_Events/earthquake.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Events/Map_Events/sledge.hpp
+CMakeFiles/THE_GAME.dir/main.cpp.o: ../Events/Player_Events/Heal.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Events/Player_Events/enemy.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Events/Player_Events/overseer.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Events/Player_Events/trap.hpp
@@ -375,13 +452,15 @@ CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Levels/FirstLevel.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Levels/LevelGenerator.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Levels/LevelType.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Levels/SecondLevel.hpp
-CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/CellAccessRule.hpp
-CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/EnemyRule.hpp
-CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/OverseerRule.hpp
+CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Levels/TestLevel.hpp
+CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/CoordCellAccessRule.hpp
+CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/CoordEventRule.hpp
+CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/HorCellAccessLineRule.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/PlayerSpawnRule.hpp
-CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/SledgeRule.hpp
-CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/TrapRule.hpp
-CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/WinRule.hpp
+CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/RandCellAccessAmountRule.hpp
+CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/RandEventAmountRule.hpp
+CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/VertCellAccessLineRule.hpp
+CMakeFiles/THE_GAME.dir/main.cpp.o: ../Field_Generator/Rules/WinSpawnRule.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Logs/ConsoleLog.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Logs/FileLog.hpp
 CMakeFiles/THE_GAME.dir/main.cpp.o: ../Logs/LogPool.hpp

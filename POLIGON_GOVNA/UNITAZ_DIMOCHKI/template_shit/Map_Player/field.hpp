@@ -8,6 +8,7 @@
 #include "../Events/Player_Events/overseer.hpp"
 #include "../Events/Player_Events/enemy.hpp"
 #include "../Events/Player_Events/trap.hpp"
+#include "../Events/Player_Events/Heal.hpp"
 #include "../Events/Map_Events/earthquake.hpp"
 #include "../Events/Map_Events/sledge.hpp"
 #include "player.hpp"
